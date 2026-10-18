@@ -1,0 +1,934 @@
+{
+  "species": [
+    {
+      "id": "amur-leopard",
+      "level": 1,
+      "name": "Amur Leopard",
+      "scientificName": "Panthera pardus orientalis",
+      "status": "Critically Endangered",
+      "remainingCount": 120,
+      "habitat": "Temperate Coniferous & Broadleaf Taiga",
+      "region": "Primorsky Krai (Russia) & Jilin Province (China)",
+      "coordinates": "43.1198\u00b0 N, 131.8869\u00b0 E",
+      "badgeColor": "from-amber-500 via-orange-600 to-rose-600",
+      "themeColor": "#f59e0b",
+      "heroImage": "https://images.unsplash.com/photo-1456926631375-92c8ce872def?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1970,
+          "pop": 850,
+          "lossPercent": 0
+        },
+        {
+          "year": 1990,
+          "pop": 420,
+          "lossPercent": 50
+        },
+        {
+          "year": 2000,
+          "pop": 35,
+          "lossPercent": 96
+        },
+        {
+          "year": 2012,
+          "pop": 60,
+          "lossPercent": 93
+        },
+        {
+          "year": 2026,
+          "pop": 120,
+          "lossPercent": 86
+        }
+      ],
+      "story": "Adapted to endure deep Siberian snowdrifts and sub-zero blizzards with thick rosetted winter coats reaching 7cm in thickness. Solitary and stealthy, fewer than 120 wild cats remain in the rugged border forests between Russia and northeastern China.",
+      "audioDescription": "Low-frequency rasping territorial cat roar and snow-patrol chuff",
+      "synthAudio": {
+        "type": "roar",
+        "baseFreq": 85,
+        "duration": 1.8
+      },
+      "threats": [
+        "Prey depletion (roe & sika deer)",
+        "Poaching for ornamental fur",
+        "Human infrastructure corridors & forest fires"
+      ],
+      "conservationWin": "Creation of the 647,000-acre Land of the Leopard National Park doubled protected breeding territories.",
+      "acousticHint": "Notice the deep raspy chest reverberation (sub-100Hz) typical of solitary big cats communicating across snowy mountain valleys.",
+      "geo": {
+        "lat": 43.1198,
+        "lng": 131.8869,
+        "zoom": 5,
+        "country": "Russia & China",
+        "locName": "Land of the Leopard National Park"
+      }
+    },
+    {
+      "id": "vaquita",
+      "level": 2,
+      "name": "Vaquita Porpoise",
+      "scientificName": "Phocoena sinus",
+      "status": "Critically Endangered",
+      "remainingCount": 10,
+      "habitat": "Turbid Estuarine Coastal Waters (depth < 50m)",
+      "region": "Upper Gulf of California, Mexico",
+      "coordinates": "31.3260\u00b0 N, 114.8370\u00b0 W",
+      "badgeColor": "from-cyan-500 via-teal-500 to-blue-600",
+      "themeColor": "#06b6d4",
+      "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1997,
+          "pop": 570,
+          "lossPercent": 0
+        },
+        {
+          "year": 2008,
+          "pop": 245,
+          "lossPercent": 57
+        },
+        {
+          "year": 2015,
+          "pop": 59,
+          "lossPercent": 90
+        },
+        {
+          "year": 2019,
+          "pop": 14,
+          "lossPercent": 97
+        },
+        {
+          "year": 2026,
+          "pop": 10,
+          "lossPercent": 98
+        }
+      ],
+      "story": "The planet's most endangered marine cetacean. Distinguished by dark soot-like eye rings and lips, this diminutive porpoise is not targeted deliberately, but perishes in illicit monofilament gillnets strung out for the lucrative swim bladders of totoaba fish.",
+      "audioDescription": "Ultrasonic echolocation sonar clicks and high-frequency whistle pulses",
+      "synthAudio": {
+        "type": "click",
+        "baseFreq": 1450,
+        "duration": 1.2
+      },
+      "threats": [
+        "Gillnet entanglement bycatch",
+        "High-salinity habitat degradation",
+        "Severe genetic bottleneck"
+      ],
+      "conservationWin": "Deploying steel-hook anti-trawl concrete modules in the Zero Tolerance Area shredded illegal poacher nets.",
+      "acousticHint": "Listen for high-pitched, rapid ultrasonic echo clicks (~1450Hz) used to navigate murky estuarine waters in complete darkness.",
+      "geo": {
+        "lat": 31.326,
+        "lng": -114.837,
+        "zoom": 6,
+        "country": "Mexico",
+        "locName": "Upper Gulf of California Reserve"
+      }
+    },
+    {
+      "id": "javan-rhino",
+      "level": 3,
+      "name": "Javan Rhinoceros",
+      "scientificName": "Rhinoceros sondaicus",
+      "status": "Critically Endangered",
+      "remainingCount": 76,
+      "habitat": "Dense Tropical Lowland Rainforest & Mud Wallows",
+      "region": "Ujung Kulon National Park, Java, Indonesia",
+      "coordinates": "6.7500\u00b0 S, 105.3333\u00b0 E",
+      "badgeColor": "from-emerald-500 via-teal-600 to-slate-700",
+      "themeColor": "#10b981",
+      "heroImage": "https://images.unsplash.com/photo-1575550959106-5a7defe28b56?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1965,
+          "pop": 420,
+          "lossPercent": 0
+        },
+        {
+          "year": 1985,
+          "pop": 160,
+          "lossPercent": 62
+        },
+        {
+          "year": 2000,
+          "pop": 55,
+          "lossPercent": 87
+        },
+        {
+          "year": 2015,
+          "pop": 63,
+          "lossPercent": 85
+        },
+        {
+          "year": 2026,
+          "pop": 76,
+          "lossPercent": 82
+        }
+      ],
+      "story": "Plated like a prehistoric medieval knight with deep skin folds. Every living individual on Earth is clustered inside a single peninsula threatened by the volatile active Anak Krakatau volcano across the Sunda Strait.",
+      "audioDescription": "Deep resonant nasal snort, squeal whistle, and muddy wallow splash",
+      "synthAudio": {
+        "type": "snort",
+        "baseFreq": 115,
+        "duration": 1.5
+      },
+      "threats": [
+        "Volcanic tsunami annihilation risk",
+        "Arenga palm monoculture smothering food trees",
+        "Disease spillover from wild water buffalo"
+      ],
+      "conservationWin": "24/7 armed Rhino Protection Units (RPUs) maintained zero horn poaching incidents for 10+ consecutive years.",
+      "acousticHint": "Distinctive guttural nasal wheeze and hollow mud-stomp resonance used to signal territory around volcanic wallows.",
+      "geo": {
+        "lat": -6.75,
+        "lng": 105.3333,
+        "zoom": 6,
+        "country": "Indonesia",
+        "locName": "Ujung Kulon National Park Peninsula"
+      }
+    },
+    {
+      "id": "kakapo",
+      "level": 4,
+      "name": "K\u0101k\u0101p\u014d",
+      "scientificName": "Strigops habroptilus",
+      "status": "Critically Endangered",
+      "remainingCount": 247,
+      "habitat": "Podocarp & Beech Mountain Moss Forests",
+      "region": "Whenua Hou (Codfish) & Anchor Islands, New Zealand",
+      "coordinates": "46.7833\u00b0 S, 167.6500\u00b0 E",
+      "badgeColor": "from-lime-500 via-green-600 to-emerald-800",
+      "themeColor": "#84cc16",
+      "heroImage": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1974,
+          "pop": 18,
+          "lossPercent": 0
+        },
+        {
+          "year": 1995,
+          "pop": 51,
+          "lossPercent": -183
+        },
+        {
+          "year": 2010,
+          "pop": 122,
+          "lossPercent": -577
+        },
+        {
+          "year": 2020,
+          "pop": 208,
+          "lossPercent": -1055
+        },
+        {
+          "year": 2026,
+          "pop": 247,
+          "lossPercent": -1272
+        }
+      ],
+      "story": "The only nocturnal, flightless, and heaviest parrot on Earth. Possessing pleasant sweet-herb scent, it freezes into moss when approached. Every living bird is tracked with GPS telemetry backpacks by national park wardens.",
+      "audioDescription": "Sub-audible reverberating male mating boom echoing across mountain valleys",
+      "synthAudio": {
+        "type": "boom",
+        "baseFreq": 58,
+        "duration": 2.2
+      },
+      "threats": [
+        "Introduced stoats, rats and feral cats",
+        "Aspergillosis fungal lung spores",
+        "Severe inbreeding depression"
+      ],
+      "conservationWin": "Smart artificial incubation and nest cameras brought wild birds from 18 individuals back to nearly 250.",
+      "acousticHint": "Sub-audible low-frequency booming pulse (58Hz) that can travel up to 5 kilometers across foggy New Zealand valleys.",
+      "geo": {
+        "lat": -46.7833,
+        "lng": 167.65,
+        "zoom": 6,
+        "country": "New Zealand",
+        "locName": "Whenua Hou / Codfish Sanctuary Island"
+      }
+    },
+    {
+      "id": "mountain-gorilla",
+      "level": 5,
+      "name": "Mountain Gorilla",
+      "scientificName": "Gorilla beringei beringei",
+      "status": "Endangered",
+      "remainingCount": 1063,
+      "habitat": "Afro-montane Cloud Rainforests (2,200m\u20134,300m)",
+      "region": "Virunga Massif (Rwanda/DRC/Uganda) & Bwindi Impenetrable",
+      "coordinates": "1.4667\u00b0 S, 29.5000\u00b0 E",
+      "badgeColor": "from-emerald-600 via-teal-700 to-indigo-900",
+      "themeColor": "#059669",
+      "heroImage": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1989,
+          "pop": 620,
+          "lossPercent": 0
+        },
+        {
+          "year": 1998,
+          "pop": 650,
+          "lossPercent": -5
+        },
+        {
+          "year": 2010,
+          "pop": 790,
+          "lossPercent": -27
+        },
+        {
+          "year": 2018,
+          "pop": 1004,
+          "lossPercent": -62
+        },
+        {
+          "year": 2026,
+          "pop": 1063,
+          "lossPercent": -71
+        }
+      ],
+      "story": "Commanding gentle giants bonded into tight social troops guided by silverbacks. Through heroic community ranger patrols, veterinary Gorilla Doctors interventions, and eco-tourism profit-sharing, they are the only wild great ape whose populations are climbing.",
+      "audioDescription": "Resonant rhythmic chest beat and contentment belch vocalization",
+      "synthAudio": {
+        "type": "chestbeat",
+        "baseFreq": 92,
+        "duration": 1.4
+      },
+      "threats": [
+        "Human respiratory pathogen transmission",
+        "Wire snares set for forest antelopes",
+        "Agricultural encroachment"
+      ],
+      "conservationWin": "Upgraded from Critically Endangered to Endangered due to continuous tri-national ranger cooperation.",
+      "acousticHint": "Rhythmic low-pitched chest-beats followed by a reassuring vocal belch used by silverbacks to keep troops calm.",
+      "geo": {
+        "lat": -1.4667,
+        "lng": 29.5,
+        "zoom": 6,
+        "country": "Uganda / DRC / Rwanda",
+        "locName": "Virunga Massif & Bwindi Impenetrable Forest"
+      }
+    },
+    {
+      "id": "hawksbill-turtle",
+      "level": 6,
+      "name": "Hawksbill Sea Turtle",
+      "scientificName": "Eretmochelys imbricata",
+      "status": "Critically Endangered",
+      "remainingCount": 20000,
+      "habitat": "Tropical Coral Reefs & Mangrove Lagoons",
+      "region": "Tropical Indo-Pacific and Atlantic Oceans",
+      "coordinates": "12.0000\u00b0 N, 86.0000\u00b0 W",
+      "badgeColor": "from-teal-400 via-cyan-600 to-blue-800",
+      "themeColor": "#14b8a6",
+      "heroImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1980,
+          "pop": 92000,
+          "lossPercent": 0
+        },
+        {
+          "year": 1995,
+          "pop": 54000,
+          "lossPercent": 41
+        },
+        {
+          "year": 2005,
+          "pop": 31000,
+          "lossPercent": 66
+        },
+        {
+          "year": 2016,
+          "pop": 23000,
+          "lossPercent": 75
+        },
+        {
+          "year": 2026,
+          "pop": 20000,
+          "lossPercent": 78
+        }
+      ],
+      "story": "Reef bio-engineers with sharp curved beaks that prune toxic sea sponges that would otherwise kill living corals. Coveted for centuries for their glowing amber tortoiseshell carapaces.",
+      "audioDescription": "Hydro-surface exhalation burst and reef flipper stroke",
+      "synthAudio": {
+        "type": "splash",
+        "baseFreq": 230,
+        "duration": 1.1
+      },
+      "threats": [
+        "Illicit tortoiseshell jewelry trade",
+        "Ocean warming and coral bleaching",
+        "Plastic ingestion resembling jellyfish"
+      ],
+      "conservationWin": "DNA fingerprinting identifies confiscated tortoiseshell directly to specific nesting beaches.",
+      "acousticHint": "Aquatic surface sigh exhalation coupled with swift hydro-flipper ripples across coral formations.",
+      "geo": {
+        "lat": 12.0,
+        "lng": -86.0,
+        "zoom": 5,
+        "country": "Pacific & Caribbean",
+        "locName": "Coral Reef Marine Corridors"
+      }
+    },
+    {
+      "id": "bengal-tiger",
+      "level": 7,
+      "name": "Bengal Tiger",
+      "scientificName": "Panthera tigris tigris",
+      "status": "Endangered",
+      "remainingCount": 3500,
+      "habitat": "Sundarbans Mangroves, Terai Arc Grasslands, Dry Deciduous",
+      "region": "South Asia (India, Bangladesh, Nepal, Bhutan)",
+      "coordinates": "21.9497\u00b0 N, 89.1833\u00b0 E",
+      "badgeColor": "from-amber-500 via-orange-600 to-red-700",
+      "themeColor": "#ea580c",
+      "heroImage": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1972,
+          "pop": 1800,
+          "lossPercent": 0
+        },
+        {
+          "year": 1990,
+          "pop": 3200,
+          "lossPercent": -77
+        },
+        {
+          "year": 2006,
+          "pop": 1411,
+          "lossPercent": 21
+        },
+        {
+          "year": 2018,
+          "pop": 2967,
+          "lossPercent": -64
+        },
+        {
+          "year": 2026,
+          "pop": 3500,
+          "lossPercent": -94
+        }
+      ],
+      "story": "The apex predator of India's river systems and jungle canopy. Project Tiger has revived populations to over 3,500 individuals across 53 protected reserves, securing fresh water basins for hundreds of millions of people.",
+      "audioDescription": "Resonant territorial feline roar vibrating forest floors",
+      "synthAudio": {
+        "type": "roar",
+        "baseFreq": 110,
+        "duration": 2.1
+      },
+      "threats": [
+        "Habitat fragmentation by highway corridors",
+        "Retaliatory buffer village killings",
+        "Illegal bone trade"
+      ],
+      "conservationWin": "Camera-trap AI surveillance and eco-development committees expanded populations by 30%.",
+      "acousticHint": "Intense low-end feline acoustic roar designed to vibrate forest floors and paralyze prey at close distances.",
+      "geo": {
+        "lat": 21.9497,
+        "lng": 89.1833,
+        "zoom": 5,
+        "country": "India & Bangladesh",
+        "locName": "Sundarbans Mangrove Reserve"
+      }
+    },
+    {
+      "id": "philippine-eagle",
+      "level": 8,
+      "name": "Philippine Eagle",
+      "scientificName": "Pithecophaga jefferyi",
+      "status": "Critically Endangered",
+      "remainingCount": 392,
+      "habitat": "Primary Dipterocarp Lowland Rainforests",
+      "region": "Mindanao, Luzon, Samar, and Leyte (Philippines)",
+      "coordinates": "7.0736\u00b0 N, 125.6110\u00b0 E",
+      "badgeColor": "from-yellow-500 via-amber-600 to-orange-700",
+      "themeColor": "#eab308",
+      "heroImage": "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1970,
+          "pop": 1200,
+          "lossPercent": 0
+        },
+        {
+          "year": 1990,
+          "pop": 680,
+          "lossPercent": 43
+        },
+        {
+          "year": 2005,
+          "pop": 500,
+          "lossPercent": 58
+        },
+        {
+          "year": 2016,
+          "pop": 420,
+          "lossPercent": 65
+        },
+        {
+          "year": 2026,
+          "pop": 392,
+          "lossPercent": 67
+        }
+      ],
+      "story": "An apex aerial monarch boasting a 2-meter wingspan and a mane-like crest of feathers. Monogamous breeding pairs spend two years rearing a single chick and demand over 50 square kilometers of virgin canopy.",
+      "audioDescription": "High, piercing aerial whistle screech",
+      "synthAudio": {
+        "type": "screech",
+        "baseFreq": 890,
+        "duration": 1.7
+      },
+      "threats": [
+        "Lowland commercial logging",
+        "Shooting and nylon deer snares",
+        "Category 5 typhoon damage to nest trees"
+      ],
+      "conservationWin": "Indigenous forest guards earn direct salaries to safeguard active eagle nesting trees.",
+      "acousticHint": "Piercing high-altitude whistle screech (890Hz) penetrating dense tropical rainforest dipterocarp canopy.",
+      "geo": {
+        "lat": 7.0736,
+        "lng": 125.611,
+        "zoom": 6,
+        "country": "Philippines",
+        "locName": "Mount Apo & Eastern Mindanao Primary Canopy"
+      }
+    },
+    {
+      "id": "blue-whale",
+      "level": 9,
+      "name": "Antarctic Blue Whale",
+      "scientificName": "Balaenoptera musculus intermedia",
+      "status": "Critically Endangered",
+      "remainingCount": 3000,
+      "habitat": "Circumpolar Polar to Temperate Pelagic Oceans",
+      "region": "Southern Ocean & Antarctic Ice Shelf Waters",
+      "coordinates": "65.0000\u00b0 S, 140.0000\u00b0 E",
+      "badgeColor": "from-blue-500 via-indigo-600 to-sky-700",
+      "themeColor": "#3b82f6",
+      "heroImage": "https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1905,
+          "pop": 239000,
+          "lossPercent": 0
+        },
+        {
+          "year": 1930,
+          "pop": 95000,
+          "lossPercent": 60
+        },
+        {
+          "year": 1973,
+          "pop": 360,
+          "lossPercent": 99.8
+        },
+        {
+          "year": 2005,
+          "pop": 1600,
+          "lossPercent": 99.3
+        },
+        {
+          "year": 2026,
+          "pop": 3000,
+          "lossPercent": 98.7
+        }
+      ],
+      "story": "The largest creature in the known history of life on Earth, exceeding 30 meters in length with a heart weighing 180kg. Industrial factory whalers slaughtered 350,000 whales until only ~360 survivors were left in the Southern Ocean.",
+      "audioDescription": "Low-frequency infrasound hydro-frequency pulse",
+      "synthAudio": {
+        "type": "whale",
+        "baseFreq": 52,
+        "duration": 2.6
+      },
+      "threats": [
+        "Super-freighter vessel strikes",
+        "Antarctic sea-ice loss shrinking krill blooms",
+        "Commercial naval sonar"
+      ],
+      "conservationWin": "International Whaling Commission 1966 ban allowed population recovery from fewer than 400 individuals.",
+      "acousticHint": "Deep infrasonic oceanic hydro-frequency vibration (52Hz) traveling across entire ocean basins.",
+      "geo": {
+        "lat": -65.0,
+        "lng": 140.0,
+        "zoom": 4,
+        "country": "Southern Ocean",
+        "locName": "Antarctic Circumpolar Shelf Waters"
+      }
+    },
+    {
+      "id": "saola",
+      "level": 10,
+      "name": "Saola (Asian Unicorn)",
+      "scientificName": "Pseudoryx nghetinhensis",
+      "status": "Critically Endangered",
+      "remainingCount": 45,
+      "habitat": "Evergreen Wet Annamite Mountain Rainforests",
+      "region": "Annamite Mountain Range (Vietnam & Laos Border)",
+      "coordinates": "18.2500\u00b0 N, 105.7500\u00b0 E",
+      "badgeColor": "from-amber-600 via-yellow-700 to-stone-800",
+      "themeColor": "#b45309",
+      "heroImage": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1993,
+          "pop": 520,
+          "lossPercent": 0
+        },
+        {
+          "year": 2000,
+          "pop": 260,
+          "lossPercent": 50
+        },
+        {
+          "year": 2010,
+          "pop": 95,
+          "lossPercent": 81
+        },
+        {
+          "year": 2020,
+          "pop": 55,
+          "lossPercent": 89
+        },
+        {
+          "year": 2026,
+          "pop": 45,
+          "lossPercent": 91
+        }
+      ],
+      "story": "Discovered only in 1992, the Saola possesses parallel long horns and striking white facial war-paint flashes. Extremely elusive, no biologist has seen a living specimen in the wild for over 12 years.",
+      "audioDescription": "Muffled hollow bleat and undergrowth twig rustle",
+      "synthAudio": {
+        "type": "bleat",
+        "baseFreq": 310,
+        "duration": 0.9
+      },
+      "threats": [
+        "Millions of indiscriminate wire snares laid for bushmeat",
+        "Cross-border highway construction",
+        "Extreme genetic isolation"
+      ],
+      "conservationWin": "Over 200,000 deadly wire snares dismantled by dedicated WWF forest guard patrols.",
+      "acousticHint": "Muffled gentle woodland bleat combined with dry brushwood twig snapping in the Annamite cloud forests.",
+      "geo": {
+        "lat": 18.25,
+        "lng": 105.75,
+        "zoom": 6,
+        "country": "Vietnam & Laos",
+        "locName": "Wet Annamite Mountain Range"
+      }
+    },
+    {
+      "id": "axolotl",
+      "level": 11,
+      "name": "Axolotl",
+      "scientificName": "Ambystoma mexicanum",
+      "status": "Critically Endangered",
+      "remainingCount": 480,
+      "habitat": "High-Altitude Freshwater Canals & Wetland Lakes",
+      "region": "Lake Xochimilco Canals, Mexico City, Mexico",
+      "coordinates": "19.2592\u00b0 N, 99.1065\u00b0 W",
+      "badgeColor": "from-pink-500 via-rose-600 to-fuchsia-700",
+      "themeColor": "#ec4899",
+      "heroImage": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1998,
+          "pop": 6000,
+          "lossPercent": 0
+        },
+        {
+          "year": 2004,
+          "pop": 1000,
+          "lossPercent": 83
+        },
+        {
+          "year": 2008,
+          "pop": 100,
+          "lossPercent": 98
+        },
+        {
+          "year": 2016,
+          "pop": 35,
+          "lossPercent": 99.4
+        },
+        {
+          "year": 2026,
+          "pop": 480,
+          "lossPercent": 92
+        }
+      ],
+      "story": "The regenerative salamander that stays in its aquatic larval form forever. It can regrow severed limbs, spinal cord, and parts of its heart and brain without scarring.",
+      "audioDescription": "Subaquatic bubble oscillation and aquatic fin flutter",
+      "synthAudio": {
+        "type": "bubble",
+        "baseFreq": 460,
+        "duration": 0.8
+      },
+      "threats": [
+        "Urban wastewater and ammonia contamination",
+        "Invasive predatory carp and tilapia",
+        "Canal drying"
+      ],
+      "conservationWin": "Floating 'Chinampa-Refugio' bio-filter canal sanctuaries built by local farmers.",
+      "acousticHint": "Hydrodynamic micro-bubble oscillation and aquatic gill-flutter in ancient high-altitude canals.",
+      "geo": {
+        "lat": 19.2592,
+        "lng": -99.1065,
+        "zoom": 7,
+        "country": "Mexico",
+        "locName": "Lake Xochimilco Canal Network"
+      }
+    },
+    {
+      "id": "california-condor",
+      "level": 12,
+      "name": "California Condor",
+      "scientificName": "Gymnogyps californianus",
+      "status": "Critically Endangered",
+      "remainingCount": 561,
+      "habitat": "Rocky Shrubland, Gorges & Oak Savannas",
+      "region": "Grand Canyon, Zion, & Coastal Ranges, USA",
+      "coordinates": "36.0544\u00b0 N, 112.1401\u00b0 W",
+      "badgeColor": "from-purple-500 via-violet-600 to-indigo-800",
+      "themeColor": "#a855f7",
+      "heroImage": "https://images.unsplash.com/photo-1618336753974-aae8e04506aa?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1982,
+          "pop": 22,
+          "lossPercent": 0
+        },
+        {
+          "year": 1992,
+          "pop": 63,
+          "lossPercent": -186
+        },
+        {
+          "year": 2005,
+          "pop": 273,
+          "lossPercent": -1140
+        },
+        {
+          "year": 2018,
+          "pop": 488,
+          "lossPercent": -2118
+        },
+        {
+          "year": 2026,
+          "pop": 561,
+          "lossPercent": -2450
+        }
+      ],
+      "story": "North America's largest land bird with a 3-meter wingspan, riding thermal air currents 200km a day without flapping. In 1987, all 22 wild birds were captured in an ambitious recovery mission that revived the species.",
+      "audioDescription": "Guttural avian hiss and air draft wing whoosh",
+      "synthAudio": {
+        "type": "hiss",
+        "baseFreq": 530,
+        "duration": 1.7
+      },
+      "threats": [
+        "Lead poisoning from game carcasses shot with lead bullets",
+        "Micro-trash ingestion",
+        "Powerline collisions"
+      ],
+      "conservationWin": "Non-lead bullet subsidies and puppet rearing returned over 340 free-flying condors to the wild.",
+      "acousticHint": "Guttural avian hiss accompanied by rushing air turbine drafts off 3-meter wingspans.",
+      "geo": {
+        "lat": 36.0544,
+        "lng": -112.1401,
+        "zoom": 6,
+        "country": "United States",
+        "locName": "Grand Canyon & Vermilion Cliffs"
+      }
+    },
+    {
+      "id": "red-panda",
+      "level": 13,
+      "name": "Red Panda",
+      "scientificName": "Ailurus fulgens",
+      "status": "Endangered",
+      "remainingCount": 9800,
+      "habitat": "High-Altitude Temperate Mixed Bamboo Canopy",
+      "region": "Eastern Himalayas (Nepal, India, Bhutan, Myanmar, China)",
+      "coordinates": "27.7172\u00b0 N, 85.3240\u00b0 E",
+      "badgeColor": "from-orange-500 via-rose-600 to-amber-700",
+      "themeColor": "#f97316",
+      "heroImage": "https://images.unsplash.com/photo-1547721064-da6cfb341d50?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1990,
+          "pop": 21000,
+          "lossPercent": 0
+        },
+        {
+          "year": 2000,
+          "pop": 16000,
+          "lossPercent": 24
+        },
+        {
+          "year": 2010,
+          "pop": 12500,
+          "lossPercent": 40
+        },
+        {
+          "year": 2018,
+          "pop": 10500,
+          "lossPercent": 50
+        },
+        {
+          "year": 2026,
+          "pop": 9800,
+          "lossPercent": 53
+        }
+      ],
+      "story": "An acrobatic tree-dweller with a false thumb and a ringed bushy tail used as a blanket in mountain snowstorms. They consume enormous quantities of bamboo leaves daily.",
+      "audioDescription": "High-pitched whistle twitter and defensive huff",
+      "synthAudio": {
+        "type": "screech",
+        "baseFreq": 640,
+        "duration": 0.9
+      },
+      "threats": [
+        "Loss of bamboo canopy to livestock grazing",
+        "Entanglement in wild dog traps",
+        "Illegal exotic pet trade demand"
+      ],
+      "conservationWin": "Community Forest Guardians in Nepal receive stipends to map micro-corridors and install anti-dog cattle fences.",
+      "acousticHint": "Sharp avian-like whistling chirp and defensive puff used when startled in Himalayan bamboo groves.",
+      "geo": {
+        "lat": 27.7172,
+        "lng": 85.324,
+        "zoom": 5,
+        "country": "Nepal & Bhutan",
+        "locName": "Eastern Himalayan Temperate Ridge"
+      }
+    },
+    {
+      "id": "sumatran-orangutan",
+      "level": 14,
+      "name": "Sumatran Orangutan",
+      "scientificName": "Pongo abelii",
+      "status": "Critically Endangered",
+      "remainingCount": 13800,
+      "habitat": "Tropical Peat Swamp and Lowland Rainforest Canopy",
+      "region": "Northern Sumatra (Leuser Ecosystem), Indonesia",
+      "coordinates": "3.5852\u00b0 N, 98.6756\u00b0 E",
+      "badgeColor": "from-amber-600 via-orange-600 to-yellow-800",
+      "themeColor": "#ea580c",
+      "heroImage": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1970,
+          "pop": 60000,
+          "lossPercent": 0
+        },
+        {
+          "year": 1990,
+          "pop": 34000,
+          "lossPercent": 43
+        },
+        {
+          "year": 2004,
+          "pop": 22000,
+          "lossPercent": 63
+        },
+        {
+          "year": 2016,
+          "pop": 14600,
+          "lossPercent": 75
+        },
+        {
+          "year": 2026,
+          "pop": 13800,
+          "lossPercent": 77
+        }
+      ],
+      "story": "Spending 99% of their lives aloft in high rainforest trees, Sumatran orangutans craft tools from twigs to extract honey and seeds. Massive palm oil plantations have leveled over 60% of their ancestral peat swamps.",
+      "audioDescription": "Long-distance resonant male vocal long-call",
+      "synthAudio": {
+        "type": "roar",
+        "baseFreq": 140,
+        "duration": 2.3
+      },
+      "threats": [
+        "Palm oil plantation fires",
+        "Draining of ancient peat bogs",
+        "Baby trafficking requiring killing mothers"
+      ],
+      "conservationWin": "The Leuser Ecosystem Alliance reclaimed and reforested thousands of hectares of illegal oil palm concessions.",
+      "acousticHint": "Resonant throat-sac male long-call building to a series of heavy sighs heard 1km away through the peat swamp canopy.",
+      "geo": {
+        "lat": 3.5852,
+        "lng": 98.6756,
+        "zoom": 6,
+        "country": "Indonesia",
+        "locName": "Leuser Ecosystem Rainforest Corridor"
+      }
+    },
+    {
+      "id": "snow-leopard",
+      "level": 15,
+      "name": "Snow Leopard",
+      "scientificName": "Panthera uncia",
+      "status": "Vulnerable (Critical Mountain Loss)",
+      "remainingCount": 4500,
+      "habitat": "Rugged Alpine Steppes and Scree Slopes (3,000m\u20135,500m)",
+      "region": "High Mountain Ranges of Central and South Asia (12 Countries)",
+      "coordinates": "35.8819\u00b0 N, 76.5133\u00b0 E",
+      "badgeColor": "from-indigo-500 via-sky-600 to-slate-700",
+      "themeColor": "#6366f1",
+      "heroImage": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=1600&q=85",
+      "timelineStats": [
+        {
+          "year": 1980,
+          "pop": 9000,
+          "lossPercent": 0
+        },
+        {
+          "year": 1995,
+          "pop": 7200,
+          "lossPercent": 20
+        },
+        {
+          "year": 2005,
+          "pop": 6000,
+          "lossPercent": 33
+        },
+        {
+          "year": 2017,
+          "pop": 4800,
+          "lossPercent": 46
+        },
+        {
+          "year": 2026,
+          "pop": 4500,
+          "lossPercent": 50
+        }
+      ],
+      "story": "The legendary 'Ghost of the Mountains'. Equipped with wide paws functioning as natural snowshoes and a muscular tail as long as its body for balancing on precipitous cliffs. Climate warming is shifting tree-lines upward.",
+      "audioDescription": "Piercing non-roaring mountain chuff and yowl",
+      "synthAudio": {
+        "type": "screech",
+        "baseFreq": 410,
+        "duration": 1.5
+      },
+      "threats": [
+        "Climate change pushing tree-lines higher",
+        "Retaliatory killing for livestock predation",
+        "Poaching for skin and bones"
+      ],
+      "conservationWin": "Predator-proof coral fencing and community livestock insurance programs turned pastoralists into active defenders.",
+      "acousticHint": "Non-roaring alpine chuff and high-pitch piercing yowl bouncing off rocky Himalayan scree cliffs.",
+      "geo": {
+        "lat": 35.8819,
+        "lng": 76.5133,
+        "zoom": 5,
+        "country": "Central & South Asia",
+        "locName": "Karakoram & High Pamir Alpine Scree"
+      }
+    }
+  ]
+}

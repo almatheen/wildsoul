@@ -1,0 +1,30 @@
+{
+  "name": "wildsoul",
+  "version": "6.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "check:data": "node scripts/check-data.mjs",
+    "images:fetch": "node scripts/fetch-images.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "next": "^14.2.5",
+    "gsap": "^3.12.5",
+    "@gsap/react": "^2.1.1",
+    "lucide-react": "^0.400.0",
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.5"
+  }
+}

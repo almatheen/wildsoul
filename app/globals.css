@@ -1,0 +1,362 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------------------------------------------------------
+   WildSoul design tokens
+   --------------------------------------------------------------- */
+:root {
+  --font-serif: 'Fraunces', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --ease: cubic-bezier(.22, 1, .36, 1);
+  --line: rgba(255, 255, 255, .12);
+  --line-d: rgba(11, 21, 17, .14);
+  --lime: #D4FF72;
+  --forest: #0B1511;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  background: #0B1511;
+  color: #F5F5ED;
+  font-family: var(--font-sans);
+  font-weight: 300;
+  line-height: 1.65;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Fine film grain. Static, so it costs nothing at runtime. */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 95;
+  opacity: .05;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+:focus-visible {
+  outline: 2px solid #D4FF72;
+  outline-offset: 4px;
+}
+
+::selection {
+  background: #D4FF72;
+  color: #0B1511;
+}
+
+img, svg { display: block; max-width: 100%; }
+
+/* ---------------------------------------------------------------
+   Type
+   --------------------------------------------------------------- */
+.serif {
+  font-family: var(--font-serif);
+  font-weight: 300;
+  letter-spacing: -.025em;
+  line-height: 1.02;
+}
+.serif em, h1 em, h2 em { font-style: italic; color: #D4FF72; }
+.on-light .serif em, .on-light h1 em, .on-light h2 em { color: #1B3025; }
+
+.label {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  font-size: .7rem;
+  letter-spacing: .24em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #D4FF72;
+}
+.label::before {
+  content: '';
+  width: 34px;
+  height: 1px;
+  background: currentColor;
+}
+.on-light .label { color: #1B3025; }
+
+.sci { font-style: italic; }
+
+/* ---------------------------------------------------------------
+   Buttons and links
+   --------------------------------------------------------------- */
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 15px 28px;
+  border: 1px solid rgba(212, 255, 114, .55);
+  border-radius: 100px;
+  font-size: .82rem;
+  letter-spacing: .06em;
+  overflow: hidden;
+  isolation: isolate;
+  transition: color .5s var(--ease), border-color .5s;
+  cursor: pointer;
+  background: transparent;
+  color: inherit;
+}
+.btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #D4FF72;
+  transform: translateY(101%);
+  transition: transform .6s var(--ease);
+  z-index: -1;
+}
+.btn:hover, .btn:focus-visible { color: #0B1511; }
+.btn:hover::before, .btn:focus-visible::before { transform: none; }
+.btn .arr { transition: transform .5s var(--ease); }
+.btn:hover .arr { transform: translateX(5px); }
+
+.btn-fill { background: #D4FF72; color: #0B1511; border-color: #D4FF72; }
+.btn-fill::before { background: #F5F5ED; }
+
+.btn-dark { border-color: rgba(11, 21, 17, .3); color: #0B1511; }
+.btn-dark::before { background: #0B1511; }
+.btn-dark:hover, .btn-dark:focus-visible { color: #F5F5ED; }
+
+.btn-sweep::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, .6), transparent);
+  transform: skewX(-20deg);
+  animation: sweep 4.2s 3s 3; /* three sweeps, then rest */
+}
+@keyframes sweep { 0%, 55% { left: -60%; } 100% { left: 140%; } }
+
+.link-u {
+  font-size: .85rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 3px;
+  transition: color .3s, border-color .3s;
+}
+.link-u:hover { color: #D4FF72; border-color: #D4FF72; }
+
+.nav-link { position: relative; padding: 4px 0; transition: color .3s; }
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  width: 100%;
+  background: #D4FF72;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .5s var(--ease);
+}
+.nav-link:hover { color: #F5F5ED; }
+.nav-link:hover::after, .nav-link[aria-current='page']::after { transform: scaleX(1); transform-origin: left; }
+.nav-link[aria-current='page'] { color: #F5F5ED; }
+
+/* ---------------------------------------------------------------
+   Status badge
+   --------------------------------------------------------------- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .62rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  border-radius: 100px;
+  border: 1px solid var(--line);
+  background: rgba(11, 21, 17, .62);
+  color: #F5F5ED;
+}
+.badge i { width: 6px; height: 6px; border-radius: 50%; background: currentColor; display: block; }
+.badge-CR i { color: #FF6B5E; }
+.badge-EN i { color: #FFB04D; }
+.badge-VU i { color: #D4FF72; }
+.on-light .badge { background: rgba(11, 21, 17, .06); color: #0B1511; border-color: var(--line-d); }
+
+/* ---------------------------------------------------------------
+   Image treatments
+   --------------------------------------------------------------- */
+.ph {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: linear-gradient(135deg, #1B3025, #14231B 55%, #1B3025);
+}
+.ph img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 35%;
+  opacity: 1;
+  transition: opacity 1s var(--ease), transform 1.4s var(--ease);
+}
+.ph img.loaded { opacity: 1; }
+.ph-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 20px;
+  color: rgba(245, 245, 237, .55);
+}
+.ph-fallback strong { font-family: var(--font-serif); font-weight: 300; font-size: 1.35rem; line-height: 1.1; color: rgba(245, 245, 237, .8); }
+.ph-fallback span { font-size: .6rem; letter-spacing: .2em; text-transform: uppercase; margin-top: 6px; }
+.ph-fallback svg { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .5; }
+
+.shade-b::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 50%, rgba(7, 13, 10, .82));
+  pointer-events: none;
+}
+
+/* ---------------------------------------------------------------
+   Reveal system. Hidden state only exists when JS has run, so content
+   stays readable with scripts off. A failsafe class reveals everything
+   if the animation layer never starts.
+   --------------------------------------------------------------- */
+.js .line { display: block; overflow: hidden; padding-bottom: .1em; margin-bottom: -.1em; }
+.js .line > span { display: inline-block; transform: translateY(112%); }
+.js [data-fade] { opacity: 0; transform: translateY(28px); }
+.js [data-mask] { clip-path: inset(100% 0 0 0); }
+.js [data-draw-path] { opacity: 0; }
+
+.js [data-hero-fade] { opacity: 0; transform: translateY(28px); }
+.js .hero-rule { transform: scaleX(0); transform-origin: left; }
+
+.rv-failsafe .line > span,
+.rv-failsafe [data-fade],
+.rv-failsafe [data-hero-fade] { transform: none !important; opacity: 1 !important; }
+.rv-failsafe .hero-rule { transform: none !important; }
+.rv-failsafe [data-mask] { clip-path: none !important; }
+.rv-failsafe [data-draw-path] { opacity: 1 !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  .js .line > span, .js [data-fade], .js [data-hero-fade] { transform: none; opacity: 1; }
+  .js .hero-rule { transform: none; }
+  .js [data-mask] { clip-path: none; }
+  .js [data-draw-path] { opacity: 1; }
+  *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; }
+  html { scroll-behavior: auto; }
+}
+
+/* Route entrance: opacity only, so pinned sections measure correctly and nothing blocks interaction */
+.page-in { animation: pageIn .5s var(--ease) both; }
+@keyframes pageIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* Header drop-in on first paint */
+.nav-drop { animation: navDrop .9s var(--ease) both; animation-delay: calc(var(--i, 0) * 70ms + 150ms); }
+@keyframes navDrop { from { opacity: 0; transform: translateY(-18px); } to { opacity: 1; transform: none; } }
+
+/* ---------------------------------------------------------------
+   Misc components
+   --------------------------------------------------------------- */
+.marquee-track { display: inline-flex; gap: 56px; align-items: center; animation: slide 60s linear infinite; }
+@keyframes slide { to { transform: translateX(-50%); } }
+
+.cue-line { width: 1px; height: 64px; background: linear-gradient(#D4FF72, transparent); transform-origin: top; animation: drip 2.4s var(--ease) infinite; }
+@keyframes drip { 0% { transform: scaleY(0); } 50% { transform: scaleY(1); } 100% { transform: scaleY(1); opacity: 0; } }
+
+.card-lift { transition: transform .7s var(--ease), border-color .5s; }
+.card-lift:hover, .card-lift:focus-visible { transform: translateY(-6px); border-color: rgba(212, 255, 114, .4); }
+
+.chip {
+  padding: 9px 16px;
+  border: 1px solid var(--line);
+  border-radius: 100px;
+  font-size: .74rem;
+  letter-spacing: .08em;
+  color: #B8C1B3;
+  transition: all .4s var(--ease);
+  cursor: pointer;
+  background: transparent;
+}
+.chip:hover { border-color: rgba(212, 255, 114, .5); color: #F5F5ED; }
+.chip[aria-pressed='true'], .chip[aria-selected='true'] { background: #D4FF72; color: #0B1511; border-color: #D4FF72; }
+
+.field {
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 100px;
+  padding: 13px 20px;
+  color: #F5F5ED;
+  font: inherit;
+  font-size: .9rem;
+  transition: border-color .3s, background .3s;
+}
+.field::placeholder { color: #71866C; }
+.field:focus { outline: none; border-color: #D4FF72; background: rgba(255, 255, 255, .03); }
+select.field { appearance: none; padding-right: 38px; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none' stroke='%23B8C1B3' stroke-width='1.5'><path d='M1 1l5 5 5-5'/></svg>"); background-repeat: no-repeat; background-position: right 16px center; }
+select.field option { background: #14231B; color: #F5F5ED; }
+
+.unverified-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: .6rem;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 100px;
+  border: 1px dashed rgba(255, 176, 77, .6);
+  color: #FFB04D;
+}
+.on-light .unverified-pill { color: #8a5200; border-color: rgba(138, 82, 0, .5); }
+
+.note-box {
+  border-left: 2px solid #D4FF72;
+  padding: 2px 0 2px 16px;
+  font-size: .82rem;
+  color: #B8C1B3;
+}
+.on-light .note-box { border-left-color: #1B3025; color: #3b4a40; }
+
+/* Leaflet theming */
+.leaflet-container.leaflet-container { background: #0B1511; font-family: var(--font-sans); }
+.leaflet-control-attribution { background: rgba(11, 21, 17, .78) !important; color: #B8C1B3 !important; font-size: 10px !important; }
+.leaflet-control-attribution a { color: #D4FF72 !important; }
+.leaflet-bar a { background: #14231B !important; color: #F5F5ED !important; border-color: rgba(255, 255, 255, .12) !important; }
+.leaflet-bar a:hover { background: #D4FF72 !important; color: #0B1511 !important; }
+.leaflet-tooltip.ws-tip { background: #0B1511; color: #F5F5ED; border: 1px solid rgba(255, 255, 255, .18); border-radius: 10px; box-shadow: none; font-family: var(--font-sans); }
+.leaflet-tooltip.ws-tip::before { display: none; }
+.ws-pin { background: none; border: 0; }
+.ws-pin span { display: block; border-radius: 50%; border: 2px solid #F5F5ED; box-shadow: 0 0 0 4px rgba(11, 21, 17, .5); }
+
+/* Scrollbars */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #070D0A; }
+::-webkit-scrollbar-thumb { background: #1B3025; border-radius: 6px; border: 2px solid #070D0A; }
+::-webkit-scrollbar-thumb:hover { background: #71866C; }
+
+/* Native dialog sheet */
+dialog.sheet {
+  position: fixed;
+  inset: 0 0 0 auto;
+  margin: 0;
+  width: min(760px, 100%);
+  height: 100dvh;
+  max-height: none;
+  border: 0;
+  padding: 0;
+  background: #0B1511;
+  color: #F5F5ED;
+  overflow-y: auto;
+  border-left: 1px solid var(--line);
+}
+dialog.sheet::backdrop { background: rgba(7, 13, 10, .72); }

@@ -1,0 +1,17 @@
+{
+  "_readme": "Catalogue configuration. Edit this file to change which species appear where. Every slug must exist in the final catalogue (npm run check:data and npm test enforce this).",
+  "target": { "Mammals": 8, "Birds": 8, "Reptiles": 8, "Amphibians": 8, "Fish": 8, "Invertebrates": 8 },
+  "groupOrder": ["Mammals", "Birds", "Reptiles", "Amphibians", "Fish", "Invertebrates"],
+  "archived": [
+    {
+      "slug": "bengal-tiger",
+      "reason": "The original dataset held 10 mammals but the catalogue allows 8 per group. Archived, not deleted: it is the third big cat alongside the Amur and snow leopards and is the closest mammal to a duplicate of an existing story. The full record is still in data/species-dataset.json and data/species-enrichment.json."
+    },
+    {
+      "slug": "sumatran-orangutan",
+      "reason": "Same reason: the second great ape alongside the mountain gorilla. Archived, not deleted; restore by removing it from this list and archiving a different mammal."
+    }
+  ],
+  "featured": ["amur-leopard", "kakapo", "mountain-gorilla", "hawksbill-turtle", "axolotl", "snow-leopard", "whale-shark", "monarch-butterfly"],
+  "network": ["amur-leopard", "snow-leopard", "vaquita", "blue-whale", "mountain-gorilla", "kakapo", "philippine-eagle", "hawksbill-turtle", "green-sea-turtle", "leatherback-turtle", "axolotl", "chinese-giant-salamander", "whale-shark", "great-white-shark", "staghorn-coral", "elkhorn-coral"]
+}

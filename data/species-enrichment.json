@@ -1,0 +1,280 @@
+{
+  "_readme": "Overlay on data/species-dataset.json, keyed by species id. Adds taxonomy, group, relationship tags, honest data-quality flags and short descriptive copy. Nothing here is an invented statistic. Population figures and narratives still come from the legacy dataset and are flagged unverified in the UI.",
+  "habitatTags": {
+    "temperate-forest": "Temperate forest",
+    "tropical-forest": "Tropical forest",
+    "montane-forest": "Montane & cloud forest",
+    "alpine-steppe": "Alpine & high steppe",
+    "coast-reef-mangrove": "Coasts, reefs & mangroves",
+    "open-ocean": "Open ocean",
+    "freshwater-wetland": "Freshwater & wetlands",
+    "canyon-scrub": "Canyons, cliffs & scrubland",
+    "grassland": "Grassland"
+  },
+  "threatTags": {
+    "habitat-loss": {
+      "label": "Habitat loss & fragmentation",
+      "explainer": "When forest, wetland or grassland is cleared, drained or cut by roads and farmland, animals lose food, shelter and the ability to move between areas. Smaller, isolated populations are more exposed to local extinction."
+    },
+    "hunting-trade": {
+      "label": "Poaching & illegal trade",
+      "explainer": "Animals are killed or captured for skins, bones, shells, meat or the pet trade. Even a modest loss of breeding adults can matter a great deal for species with few individuals and slow reproduction."
+    },
+    "snares-bycatch": {
+      "label": "Snares & bycatch",
+      "explainer": "Wire snares set for other animals and fishing nets set for other fish catch non-target species. The animals are often not the intended catch, which makes the pressure hard to see and hard to regulate."
+    },
+    "climate": {
+      "label": "Climate change",
+      "explainer": "Warming oceans, shifting ice and changing treelines alter where species can find food and suitable conditions. The effects depend heavily on the species and place."
+    },
+    "pollution": {
+      "label": "Pollution & contamination",
+      "explainer": "Contaminated water, plastic, lead and underwater noise can poison, injure or disturb wildlife, sometimes far from the original source."
+    },
+    "invasive-disease": {
+      "label": "Invasive species & disease",
+      "explainer": "Introduced predators and competitors, and diseases carried by people or livestock, can reach animals that evolved without defences against them."
+    },
+    "human-conflict": {
+      "label": "Human–wildlife conflict",
+      "explainer": "Large carnivores that prey on livestock can be killed in retaliation. Programmes that reduce livestock losses are one way communities and wildlife can share landscapes."
+    },
+    "small-population": {
+      "label": "Small population & genetic risk",
+      "explainer": "Very small populations lose genetic variety and are vulnerable to single events such as disease, storms or a bad breeding season."
+    },
+    "collision": {
+      "label": "Collisions & infrastructure",
+      "explainer": "Ship strikes, power lines and similar structures injure or kill animals that move through shared space with human infrastructure."
+    }
+  },
+  "species": {
+    "amur-leopard": {
+      "wiki": "Amur leopard",
+      "group": "Mammals",
+      "taxonomy": { "class": "Mammalia", "order": "Carnivora", "family": "Felidae", "genus": "Panthera" },
+      "iucn": { "code": "CR", "scope": "subspecies" },
+      "tagline": "A leopard subspecies adapted to the cold, snowy forests of the Russian Far East and northeast China.",
+      "ecologicalRole": "A solitary apex predator of its forest ecosystem, feeding mainly on deer and other hoofed mammals.",
+      "habitatTags": ["temperate-forest"],
+      "threatTags": ["hunting-trade", "habitat-loss", "small-population"],
+      "geoPrecision": "representative-site",
+      "audit": [
+        "The 1970 value (850) and the 2026 value (120) are unsourced and undated in the legacy dataset.",
+        "The story text states a specific headcount ('fewer than 120'); confirm the current figure and survey date."
+      ]
+    },
+    "vaquita": {
+      "wiki": "Vaquita",
+      "group": "Mammals",
+      "taxonomy": { "class": "Mammalia", "order": "Artiodactyla", "family": "Phocoenidae", "genus": "Phocoena", "note": "Whales and porpoises (cetaceans) sit inside the order Artiodactyla in current classifications." },
+      "iucn": { "code": "CR", "scope": "species" },
+      "tagline": "The world's smallest cetacean, a porpoise found only in the northern Upper Gulf of California, Mexico.",
+      "ecologicalRole": "A small toothed whale feeding on fish, squid and crustaceans in shallow, murky coastal water.",
+      "habitatTags": ["coast-reef-mangrove"],
+      "threatTags": ["snares-bycatch", "small-population"],
+      "geoPrecision": "representative-site",
+      "audit": [
+        "The series 570 → 245 → 59 → 14 → 10 is unsourced; the legacy dataset gives no survey method or date for each value.",
+        "Very small populations are normally reported with wide uncertainty ranges; a single integer should be treated with care."
+      ]
+    },
+    "javan-rhino": {
+      "wiki": "Javan rhinoceros",
+      "group": "Mammals",
+      "taxonomy": { "class": "Mammalia", "order": "Perissodactyla", "family": "Rhinocerotidae", "genus": "Rhinoceros" },
+      "iucn": { "code": "CR", "scope": "species" },
+      "tagline": "A rhinoceros once widespread in Southeast Asia, now confined to Ujung Kulon National Park on Java.",
+      "ecologicalRole": "A browsing herbivore that eats shoots, twigs and leaves in lowland forest.",
+      "habitatTags": ["tropical-forest"],
+      "threatTags": ["small-population", "habitat-loss", "invasive-disease"],
+      "geoPrecision": "representative-site",
+      "audit": [
+        "Counts for 1965 (420) and 1985 (160) are unsourced; confirm against park or IUCN Asian Rhino Specialist Group figures.",
+        "The 'zero poaching for 10+ years' statement has no date or source attached."
+      ]
+    },
+    "kakapo": {
+      "wiki": "Kākāpō",
+      "group": "Birds",
+      "taxonomy": { "class": "Aves", "order": "Psittaciformes", "family": "Strigopidae", "genus": "Strigops" },
+      "iucn": { "code": "CR", "scope": "species" },
+      "tagline": "A flightless, nocturnal, ground-dwelling parrot endemic to New Zealand.",
+      "ecologicalRole": "A large herbivorous parrot that eats leaves, shoots, seeds and fruit; its breeding is linked to seasons of heavy fruiting in some native trees.",
+      "habitatTags": ["temperate-forest"],
+      "threatTags": ["invasive-disease", "small-population"],
+      "geoPrecision": "representative-site",
+      "audit": [
+        "The 247 figure is labelled 2026 with no census date; the New Zealand Department of Conservation publishes the official count.",
+        "The 1974 value (18) should be checked for what it counted (for example, only a subset of birds)."
+      ]
+    },
+    "mountain-gorilla": {
+      "wiki": "Mountain gorilla",
+      "group": "Mammals",
+      "taxonomy": { "class": "Mammalia", "order": "Primates", "family": "Hominidae", "genus": "Gorilla" },
+      "iucn": { "code": "EN", "scope": "subspecies" },
+      "tagline": "A great ape subspecies of the high-altitude forests of the Virunga volcanoes and Bwindi Impenetrable Forest.",
+      "ecologicalRole": "A mostly herbivorous forager, feeding on leaves, stems and shoots in montane forest.",
+      "habitatTags": ["montane-forest"],
+      "threatTags": ["invasive-disease", "snares-bycatch", "habitat-loss"],
+      "geoPrecision": "region-centre",
+      "audit": [
+        "The latest value (1,063) is labelled 2026 but looks like a survey-based estimate from an earlier year; confirm the census year.",
+        "Check the subspecies treatment of the Bwindi population against the current IUCN assessment."
+      ]
+    },
+    "hawksbill-turtle": {
+      "wiki": "Hawksbill sea turtle",
+      "group": "Reptiles",
+      "taxonomy": { "class": "Reptilia", "order": "Testudines", "family": "Cheloniidae", "genus": "Eretmochelys" },
+      "iucn": { "code": "CR", "scope": "species" },
+      "tagline": "A tropical sea turtle recognised by its narrow beak and overlapping shell plates.",
+      "ecologicalRole": "Feeds largely on sponges, which ties it closely to coral-reef ecosystems.",
+      "habitatTags": ["coast-reef-mangrove"],
+      "threatTags": ["hunting-trade", "climate", "pollution"],
+      "geoPrecision": "wide-ranging",
+      "chart": { "mode": "withheld", "reason": "Sea-turtle abundance is often reported as nesting females per year rather than total individuals, and the legacy series does not say which it is. A chart would risk mixing units, so it is withheld until the unit and sources are confirmed." },
+      "audit": [
+        "Global totals of 92,000 → 20,000 have no source or unit; confirm whether these are nesting females, adults or all individuals.",
+        "The map pin (12°N, 86°W) is an arbitrary Pacific/Caribbean point. The species ranges across tropical oceans worldwide."
+      ]
+    },
+    "bengal-tiger": {
+      "wiki": "Bengal tiger",
+      "group": "Mammals",
+      "taxonomy": { "class": "Mammalia", "order": "Carnivora", "family": "Felidae", "genus": "Panthera" },
+      "iucn": { "code": "EN", "scope": "species", "note": "The IUCN assesses the tiger (Panthera tigris) as a species; confirm how subspecies are treated before citing a subspecies status." },
+      "tagline": "The tiger population of the Indian subcontinent, found in forests, grasslands and mangroves.",
+      "ecologicalRole": "An apex predator that helps regulate populations of large prey such as deer and wild pigs.",
+      "habitatTags": ["tropical-forest", "coast-reef-mangrove", "grassland"],
+      "threatTags": ["habitat-loss", "human-conflict", "hunting-trade"],
+      "geoPrecision": "representative-site",
+      "audit": [
+        "Several values (1972, 2006, 2018) resemble national census figures for India alone, while the label covers the whole subcontinent. Check geographic scope.",
+        "The 2026 value (3,500) has no source or survey date."
+      ]
+    },
+    "philippine-eagle": {
+      "wiki": "Philippine eagle",
+      "group": "Birds",
+      "taxonomy": { "class": "Aves", "order": "Accipitriformes", "family": "Accipitridae", "genus": "Pithecophaga" },
+      "iucn": { "code": "CR", "scope": "species" },
+      "tagline": "One of the world's largest eagles, endemic to forests of the Philippines.",
+      "ecologicalRole": "An apex raptor of the primary forest canopy.",
+      "habitatTags": ["tropical-forest"],
+      "threatTags": ["habitat-loss", "snares-bycatch", "hunting-trade"],
+      "geoPrecision": "representative-site",
+      "audit": [
+        "The 1970 value (1,200) and the 2026 value (392) have no source or unit (individuals or breeding pairs)."
+      ]
+    },
+    "blue-whale": {
+      "wiki": "Blue whale",
+      "group": "Mammals",
+      "taxonomy": { "class": "Mammalia", "order": "Artiodactyla", "family": "Balaenopteridae", "genus": "Balaenoptera", "note": "Whales (cetaceans) sit inside the order Artiodactyla in current classifications." },
+      "iucn": { "code": "CR", "scope": "subspecies", "note": "The Antarctic blue whale (B. m. intermedia) is the subspecies; the species as a whole has a different status." },
+      "tagline": "The largest subspecies of the blue whale, feeding in the cold waters of the Southern Ocean.",
+      "ecologicalRole": "A baleen whale that feeds almost entirely on krill.",
+      "habitatTags": ["open-ocean"],
+      "threatTags": ["collision", "climate", "pollution"],
+      "geoPrecision": "wide-ranging",
+      "audit": [
+        "The long series (1905 → 2026) mixes pre-whaling estimates, a post-whaling low and recent estimates; each needs its own citation and uncertainty range.",
+        "The map pin (65°S, 140°E) is an arbitrary Southern Ocean point, not a range."
+      ]
+    },
+    "saola": {
+      "wiki": "Saola",
+      "group": "Mammals",
+      "taxonomy": { "class": "Mammalia", "order": "Artiodactyla", "family": "Bovidae", "genus": "Pseudoryx" },
+      "iucn": { "code": "CR", "scope": "species" },
+      "tagline": "A forest-dwelling bovid of the Annamite Mountains of Vietnam and Laos, first described by science in 1992.",
+      "ecologicalRole": "A rarely observed forest herbivore; very little is known about its ecology.",
+      "habitatTags": ["montane-forest"],
+      "threatTags": ["snares-bycatch", "habitat-loss", "small-population"],
+      "geoPrecision": "region-centre",
+      "audit": [
+        "Saola are almost never seen, so any specific headcount (for example 45 or 520) is unlikely to be a measured census. Replace with a documented estimate range, or remove.",
+        "The 'over 200,000 snares removed' claim is unsourced."
+      ]
+    },
+    "axolotl": {
+      "wiki": "Axolotl",
+      "group": "Amphibians",
+      "taxonomy": { "class": "Amphibia", "order": "Caudata", "family": "Ambystomatidae", "genus": "Ambystoma" },
+      "iucn": { "code": "CR", "scope": "species" },
+      "tagline": "A salamander that keeps its larval features throughout life, native to the lake system around Mexico City.",
+      "ecologicalRole": "A freshwater predator of small invertebrates and fish in canal and lake habitat.",
+      "habitatTags": ["freshwater-wetland"],
+      "threatTags": ["pollution", "invasive-disease", "habitat-loss"],
+      "geoPrecision": "representative-site",
+      "chart": { "mode": "withheld", "reason": "The legacy series (6000, 1000, 100, 35, then 480) falls and then jumps. The early values resemble survey densities (animals per square kilometre) rather than total population, so the series likely mixes units. It is withheld until the unit and sources are confirmed." },
+      "audit": [
+        "Series appears to mix density and population counts (see chart note).",
+        "Confirm the status and survey year with the IUCN Red List and the relevant Mexican research programme."
+      ]
+    },
+    "california-condor": {
+      "wiki": "California condor",
+      "group": "Birds",
+      "taxonomy": { "class": "Aves", "order": "Cathartiformes", "family": "Cathartidae", "genus": "Gymnogyps", "note": "Some authorities still place New World vultures in Accipitriformes." },
+      "iucn": { "code": "CR", "scope": "species" },
+      "tagline": "North America's largest land bird, a scavenging New World vulture.",
+      "ecologicalRole": "A scavenger that feeds on carcasses.",
+      "habitatTags": ["canyon-scrub"],
+      "threatTags": ["pollution", "collision"],
+      "geoPrecision": "representative-site",
+      "audit": [
+        "The 561 figure is labelled 2026 with no census date; the U.S. Fish & Wildlife Service publishes annual population summaries.",
+        "The legacy count may combine captive and wild birds; confirm the split."
+      ]
+    },
+    "red-panda": {
+      "wiki": "Red panda",
+      "group": "Mammals",
+      "taxonomy": { "class": "Mammalia", "order": "Carnivora", "family": "Ailuridae", "genus": "Ailurus" },
+      "iucn": { "code": "EN", "scope": "species", "note": "Recent taxonomy separates the Himalayan and Chinese red panda; check how the current assessment treats them." },
+      "tagline": "A small, tree-dwelling mammal of Himalayan and south-western Chinese mountain forests, feeding mainly on bamboo.",
+      "ecologicalRole": "Feeds mostly on bamboo leaves and shoots in temperate mountain forest.",
+      "habitatTags": ["montane-forest"],
+      "threatTags": ["habitat-loss", "snares-bycatch", "hunting-trade"],
+      "geoPrecision": "region-centre",
+      "audit": [
+        "The map pin (27.7172°N, 85.324°E) matches the city of Kathmandu rather than red panda habitat; treat as a regional marker only.",
+        "The 1990 → 2026 series is unsourced, and range-wide red panda counts are generally uncertain."
+      ]
+    },
+    "sumatran-orangutan": {
+      "wiki": "Sumatran orangutan",
+      "group": "Mammals",
+      "taxonomy": { "class": "Mammalia", "order": "Primates", "family": "Hominidae", "genus": "Pongo" },
+      "iucn": { "code": "CR", "scope": "species" },
+      "tagline": "A great ape found only in the forests of northern Sumatra, Indonesia.",
+      "ecologicalRole": "A fruit-eating forest dweller that disperses the seeds of many trees.",
+      "habitatTags": ["tropical-forest", "freshwater-wetland"],
+      "threatTags": ["habitat-loss", "hunting-trade"],
+      "geoPrecision": "region-centre",
+      "audit": [
+        "The map pin (3.5852°N, 98.6756°E) lies at or near the city of Medan, not inside the Leuser Ecosystem; treat as a regional marker only.",
+        "The 1970 value (60,000) and the 2026 value (13,800) have no source or date."
+      ]
+    },
+    "snow-leopard": {
+      "wiki": "Snow leopard",
+      "group": "Mammals",
+      "taxonomy": { "class": "Mammalia", "order": "Carnivora", "family": "Felidae", "genus": "Panthera" },
+      "iucn": { "code": "VU", "scope": "species" },
+      "tagline": "A large cat of the high mountains of Central and South Asia, adapted to cold, rocky terrain.",
+      "ecologicalRole": "An apex predator of alpine ecosystems, preying on wild sheep and goats.",
+      "habitatTags": ["alpine-steppe"],
+      "threatTags": ["human-conflict", "hunting-trade", "climate"],
+      "geoPrecision": "region-centre",
+      "audit": [
+        "The legacy status text 'Vulnerable (Critical Mountain Loss)' is not an IUCN category; normalised to 'Vulnerable'.",
+        "The series 9,000 → 4,500 is unsourced; global estimates are usually given as a wide range, not a single figure."
+      ]
+    }
+  }
+}

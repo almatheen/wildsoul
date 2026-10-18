@@ -1,0 +1,1973 @@
+{
+  "_readme": "Additional species records (35) that complete the 48-species catalogue. Authored for this project from general knowledge of each species; each status is flagged as not re-checked against the live IUCN Red List (the build environment could not reach it). Population estimates are intentionally absent.",
+  "species": {
+    "spoon-billed-sandpiper": {
+      "name": "Spoon-billed Sandpiper",
+      "scientificName": "Calidris pygmaea",
+      "group": "Birds",
+      "taxonomy": {
+        "class": "Aves",
+        "order": "Charadriiformes",
+        "family": "Scolopacidae",
+        "genus": "Calidris"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species"
+      },
+      "wiki": "Spoon-billed sandpiper",
+      "tagline": "A tiny wader with a spoon-shaped bill that breeds in far-eastern Russia and winters on the coasts of South and Southeast Asia.",
+      "summary": "The spoon-billed sandpiper is a very small shorebird. Its spatula-tipped bill is used to sift mud and shallow water for food. Its survival depends on tidal mudflats in several countries, so protecting it means protecting a whole migration route.",
+      "ecologicalRole": "Forages on tidal mudflats for small invertebrates by sweeping its bill from side to side; it links Arctic breeding grounds with Asian coastal wetlands along a long migration route.",
+      "habitat": "Arctic coastal tundra (breeding) and tidal mudflats (non-breeding)",
+      "habitatTags": [
+        "coast-reef-mangrove"
+      ],
+      "region": "Chukotka, Russia (breeding); coasts of Southeast Asia and Bangladesh (non-breeding)",
+      "geo": {
+        "lat": 62.5,
+        "lng": 177,
+        "zoom": 5,
+        "country": "Russia",
+        "locName": "Chukotka coast, far-eastern Russia (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Loss of intertidal mudflats at migration stopovers",
+        "Trapping and hunting on wintering grounds",
+        "Disturbance and habitat change at breeding sites"
+      ],
+      "threatTags": [
+        "habitat-loss",
+        "hunting-trade",
+        "small-population"
+      ],
+      "conservationActions": [
+        "International cooperation along the East Asian–Australasian Flyway",
+        "Captive-breeding and “head-starting” programmes that raise eggs and chicks for release",
+        "Work with local communities to reduce trapping on wintering grounds"
+      ],
+      "audio": {
+        "description": "A short, high, soft trill suggesting a small wader",
+        "hint": "A synthesized high-pitched tone. It does not reproduce the bird’s real call.",
+        "params": {
+          "type": "screech",
+          "baseFreq": 2400,
+          "duration": 0.7
+        }
+      }
+    },
+    "whooping-crane": {
+      "name": "Whooping Crane",
+      "scientificName": "Grus americana",
+      "group": "Birds",
+      "taxonomy": {
+        "class": "Aves",
+        "order": "Gruiformes",
+        "family": "Gruidae",
+        "genus": "Grus"
+      },
+      "iucn": {
+        "code": "EN",
+        "scope": "species"
+      },
+      "wiki": "Whooping crane",
+      "tagline": "North America’s tallest bird, whose only self-sustaining wild flock breeds in northern Canada and winters on the Texas coast.",
+      "summary": "Whooping cranes are tall white cranes with black wing tips. They were reduced to a very small number of birds in the twentieth century, and recovery has relied on long-term protection and captive breeding.",
+      "ecologicalRole": "An omnivorous wetland wader that eats crabs, clams, insects and plant matter in marshes and shallow water.",
+      "habitat": "Prairie and boreal wetlands (breeding); coastal salt marsh (winter)",
+      "habitatTags": [
+        "freshwater-wetland",
+        "coast-reef-mangrove"
+      ],
+      "region": "Wood Buffalo National Park, Canada (breeding) to the Texas Gulf Coast, USA (winter)",
+      "geo": {
+        "lat": 28.3,
+        "lng": -96.8,
+        "zoom": 6,
+        "country": "United States",
+        "locName": "Aransas coast, Texas (wintering area, regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Collisions with power lines and other structures",
+        "Loss and degradation of wetland habitat",
+        "Risk to a small, geographically concentrated wild flock from storms or spills"
+      ],
+      "threatTags": [
+        "collision",
+        "habitat-loss",
+        "small-population"
+      ],
+      "conservationActions": [
+        "Captive breeding and reintroduction programmes",
+        "Habitat protection along the migration route",
+        "Monitoring of the wild flocks"
+      ],
+      "audio": {
+        "description": "A loud, trumpeting call suggesting a large crane",
+        "hint": "A synthesized low-mid tone. It does not reproduce the crane’s real call.",
+        "params": {
+          "type": "boom",
+          "baseFreq": 420,
+          "duration": 1.4
+        }
+      }
+    },
+    "northern-bald-ibis": {
+      "name": "Northern Bald Ibis",
+      "scientificName": "Geronticus eremita",
+      "group": "Birds",
+      "taxonomy": {
+        "class": "Aves",
+        "order": "Pelecaniformes",
+        "family": "Threskiornithidae",
+        "genus": "Geronticus"
+      },
+      "iucn": {
+        "code": "EN",
+        "scope": "species"
+      },
+      "wiki": "Northern bald ibis",
+      "tagline": "A bald-headed, cliff-nesting ibis that once ranged across Europe, North Africa and the Middle East and now survives mainly in Morocco.",
+      "summary": "The northern bald ibis has dark, glossy plumage, a bare red head and a long curved bill. It is highly social. Most wild birds now live in a few areas of Morocco, with managed groups elsewhere.",
+      "ecologicalRole": "Forages in groups on dry ground for insects, lizards and other small animals, and nests in colonies on cliffs.",
+      "habitat": "Semi-arid coastal and inland cliffs and open steppe",
+      "habitatTags": [
+        "canyon-scrub",
+        "grassland"
+      ],
+      "region": "Morocco (main wild colonies); reintroduced groups in parts of Europe",
+      "geo": {
+        "lat": 30.1,
+        "lng": -9.65,
+        "zoom": 7,
+        "country": "Morocco",
+        "locName": "Souss-Massa region, Morocco (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Loss of feeding habitat to development and tourism",
+        "Poisoning and pesticide exposure",
+        "Disturbance at nesting colonies"
+      ],
+      "threatTags": [
+        "habitat-loss",
+        "pollution",
+        "small-population"
+      ],
+      "conservationActions": [
+        "Protection and wardening of wild colonies in Morocco",
+        "Reintroduction programmes, including guided migration, in Europe",
+        "Monitoring of breeding success"
+      ],
+      "audio": {
+        "description": "A hoarse, grunting call suggesting a colonial ibis",
+        "hint": "A synthesized mid tone. It does not reproduce the ibis’s real call.",
+        "params": {
+          "type": "screech",
+          "baseFreq": 650,
+          "duration": 0.9
+        }
+      }
+    },
+    "african-penguin": {
+      "name": "African Penguin",
+      "scientificName": "Spheniscus demersus",
+      "group": "Birds",
+      "taxonomy": {
+        "class": "Aves",
+        "order": "Sphenisciformes",
+        "family": "Spheniscidae",
+        "genus": "Spheniscus"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species"
+      },
+      "wiki": "African penguin",
+      "tagline": "A black-and-white seabird that breeds only on the coasts and islands of South Africa and Namibia.",
+      "summary": "African penguins are medium-sized penguins with a black face band and pink skin patches above the eyes. They are also known as jackass penguins because of their donkey-like braying call. Their numbers have fallen steeply over recent decades.",
+      "ecologicalRole": "Feeds on small schooling fish such as sardines and anchovies, so its breeding success is tied to the availability of that prey.",
+      "habitat": "Coastal waters and offshore islands",
+      "habitatTags": [
+        "coast-reef-mangrove"
+      ],
+      "region": "South Africa and Namibia",
+      "geo": {
+        "lat": -34.2,
+        "lng": 18.45,
+        "zoom": 8,
+        "country": "South Africa",
+        "locName": "Western Cape coast (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Shortages of prey fish linked to fishing and shifting fish distributions",
+        "Oil spills and marine pollution",
+        "Warming seas and extreme weather affecting breeding"
+      ],
+      "threatTags": [
+        "climate",
+        "pollution"
+      ],
+      "conservationActions": [
+        "Fishing restrictions around some breeding colonies",
+        "Rescue, rehabilitation and hand-rearing of abandoned chicks and oiled birds",
+        "Artificial nests and predator management at colonies"
+      ],
+      "audio": {
+        "description": "A braying call suggesting the “jackass” sound of this penguin",
+        "hint": "A synthesized bray-like tone. It does not reproduce the penguin’s real call.",
+        "params": {
+          "type": "bleat",
+          "baseFreq": 380,
+          "duration": 1.3
+        }
+      }
+    },
+    "shoebill": {
+      "name": "Shoebill",
+      "scientificName": "Balaeniceps rex",
+      "group": "Birds",
+      "taxonomy": {
+        "class": "Aves",
+        "order": "Pelecaniformes",
+        "family": "Balaenicipitidae",
+        "genus": "Balaeniceps"
+      },
+      "iucn": {
+        "code": "VU",
+        "scope": "species"
+      },
+      "wiki": "Shoebill",
+      "tagline": "A tall grey wetland bird with an enormous, shoe-shaped bill, found in the swamps of central and eastern Africa.",
+      "summary": "The shoebill stands over a metre tall and is known for its heavy bill, which it uses to grab large, slippery prey. It lives at low density in remote swamps and is sensitive to wetland loss and disturbance.",
+      "ecologicalRole": "An ambush predator that stands motionless in papyrus swamps and strikes at fish such as lungfish and catfish.",
+      "habitat": "Freshwater swamps and papyrus marshes",
+      "habitatTags": [
+        "freshwater-wetland"
+      ],
+      "region": "South Sudan, Uganda, Zambia and neighbouring countries",
+      "geo": {
+        "lat": 0.33,
+        "lng": 32.35,
+        "zoom": 7,
+        "country": "Uganda",
+        "locName": "Mabamba Bay wetland, Uganda (representative site)"
+      },
+      "geoPrecision": "representative-site",
+      "threats": [
+        "Drainage and conversion of wetlands",
+        "Disturbance, nest robbing and capture for the live-bird trade",
+        "Burning and grazing of wetland habitat"
+      ],
+      "threatTags": [
+        "habitat-loss",
+        "hunting-trade"
+      ],
+      "conservationActions": [
+        "Wetland protection and community-based guiding at key sites",
+        "Monitoring and enforcement against capture and trade",
+        "Management of important wetland sites"
+      ],
+      "audio": {
+        "description": "A bill-clattering sound suggesting a shoebill greeting display",
+        "hint": "A synthesized clatter-like tone. It does not reproduce the bird’s real bill-clattering.",
+        "params": {
+          "type": "click",
+          "baseFreq": 800,
+          "duration": 1
+        }
+      }
+    },
+    "komodo-dragon": {
+      "name": "Komodo Dragon",
+      "scientificName": "Varanus komodoensis",
+      "group": "Reptiles",
+      "taxonomy": {
+        "class": "Reptilia",
+        "order": "Squamata",
+        "family": "Varanidae",
+        "genus": "Varanus"
+      },
+      "iucn": {
+        "code": "EN",
+        "scope": "species"
+      },
+      "wiki": "Komodo dragon",
+      "tagline": "The heaviest living lizard, found on a handful of Indonesian islands.",
+      "summary": "Komodo dragons are large monitor lizards with a strong sense of smell. Their entire range is a small group of islands, which makes them vulnerable to habitat change and sea-level rise.",
+      "ecologicalRole": "A top predator of its islands that hunts deer and pigs and also scavenges carcasses.",
+      "habitat": "Dry savanna, tropical dry forest and coastal areas",
+      "habitatTags": [
+        "grassland",
+        "tropical-forest"
+      ],
+      "region": "Komodo, Rinca, Flores and Gili Motang, Indonesia",
+      "geo": {
+        "lat": -8.55,
+        "lng": 119.49,
+        "zoom": 8,
+        "country": "Indonesia",
+        "locName": "Komodo National Park (representative site)"
+      },
+      "geoPrecision": "representative-site",
+      "threats": [
+        "Loss of prey and habitat",
+        "Rising sea levels projected to reduce suitable habitat",
+        "Human disturbance and illegal hunting of its prey"
+      ],
+      "threatTags": [
+        "habitat-loss",
+        "climate",
+        "human-conflict"
+      ],
+      "conservationActions": [
+        "Protection within Komodo National Park",
+        "Monitoring of dragon and prey populations",
+        "Management of visitor numbers"
+      ],
+      "audio": {
+        "description": "A low hiss suggesting a large monitor lizard",
+        "hint": "A synthesized hissing tone. It does not reproduce the lizard’s real hiss.",
+        "params": {
+          "type": "hiss",
+          "baseFreq": 420,
+          "duration": 1.4
+        }
+      }
+    },
+    "gharial": {
+      "name": "Gharial",
+      "scientificName": "Gavialis gangeticus",
+      "group": "Reptiles",
+      "taxonomy": {
+        "class": "Reptilia",
+        "order": "Crocodylia",
+        "family": "Gavialidae",
+        "genus": "Gavialis"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species"
+      },
+      "wiki": "Gharial",
+      "tagline": "A fish-eating crocodilian with a very long, narrow snout, restricted to a few rivers of the Indian subcontinent.",
+      "summary": "The gharial’s slender snout is an adaptation for sweeping through water to catch fish. Adult males develop a bulb-like growth at the snout tip that amplifies a buzzing sound.",
+      "ecologicalRole": "A specialist fish hunter whose presence reflects healthy river flow and undisturbed sandbanks for nesting.",
+      "habitat": "Large, deep rivers with sandbanks",
+      "habitatTags": [
+        "freshwater-wetland"
+      ],
+      "region": "Northern India and Nepal (remnant river populations)",
+      "geo": {
+        "lat": 26.6,
+        "lng": 78.7,
+        "zoom": 7,
+        "country": "India",
+        "locName": "Chambal River region, India (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Dams, irrigation and sand mining that alter rivers and nesting banks",
+        "Entanglement and drowning in fishing nets",
+        "Declining fish stocks"
+      ],
+      "threatTags": [
+        "habitat-loss",
+        "snares-bycatch"
+      ],
+      "conservationActions": [
+        "Protected river sanctuaries",
+        "Captive rearing and release programmes",
+        "Protection of nesting sandbanks"
+      ],
+      "audio": {
+        "description": "A low buzzing hiss suggesting a gharial’s buzz",
+        "hint": "A synthesized buzzing tone. It does not reproduce the animal’s real sound.",
+        "params": {
+          "type": "hiss",
+          "baseFreq": 360,
+          "duration": 1.2
+        }
+      }
+    },
+    "chinese-alligator": {
+      "name": "Chinese Alligator",
+      "scientificName": "Alligator sinensis",
+      "group": "Reptiles",
+      "taxonomy": {
+        "class": "Reptilia",
+        "order": "Crocodylia",
+        "family": "Alligatoridae",
+        "genus": "Alligator"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species"
+      },
+      "wiki": "Chinese alligator",
+      "tagline": "A small, armoured alligator that survives only in the lower Yangtze region of eastern China.",
+      "summary": "Smaller than the American alligator, the Chinese alligator hibernates in burrows through winter. Its remaining wild habitat is a patchwork of small wetlands within farmland.",
+      "ecologicalRole": "A burrowing predator of snails, fish and small animals whose burrows alter wetland habitat.",
+      "habitat": "Freshwater wetlands, ponds and marshes",
+      "habitatTags": [
+        "freshwater-wetland"
+      ],
+      "region": "Anhui Province and neighbouring areas of eastern China",
+      "geo": {
+        "lat": 30.95,
+        "lng": 118.75,
+        "zoom": 7,
+        "country": "China",
+        "locName": "Anhui Province, eastern China (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Conversion of wetlands to farmland",
+        "Pollution and pesticide use",
+        "Small, fragmented populations"
+      ],
+      "threatTags": [
+        "habitat-loss",
+        "pollution",
+        "small-population"
+      ],
+      "conservationActions": [
+        "Captive breeding and release into protected areas",
+        "Wetland protection in reserves",
+        "Public awareness and local engagement"
+      ],
+      "audio": {
+        "description": "A low bellow suggesting an alligator chorus",
+        "hint": "A synthesized low tone. It does not reproduce the alligator’s real bellow.",
+        "params": {
+          "type": "roar",
+          "baseFreq": 120,
+          "duration": 1.6
+        }
+      }
+    },
+    "leatherback-turtle": {
+      "name": "Leatherback Sea Turtle",
+      "scientificName": "Dermochelys coriacea",
+      "group": "Reptiles",
+      "taxonomy": {
+        "class": "Reptilia",
+        "order": "Testudines",
+        "family": "Dermochelyidae",
+        "genus": "Dermochelys"
+      },
+      "iucn": {
+        "code": "VU",
+        "scope": "species",
+        "note": "This is the global assessment. Several regional subpopulations are assessed in higher-risk categories."
+      },
+      "wiki": "Leatherback sea turtle",
+      "tagline": "The largest living sea turtle, with a flexible, leathery shell and some of the longest migrations of any reptile.",
+      "summary": "Unlike other sea turtles, the leatherback has no hard shell plates. It dives deep and travels across entire ocean basins between feeding and nesting areas.",
+      "ecologicalRole": "Feeds mainly on jellyfish and other soft-bodied animals, which can help regulate their numbers.",
+      "habitat": "Open ocean; nests on tropical beaches",
+      "habitatTags": [
+        "open-ocean",
+        "coast-reef-mangrove"
+      ],
+      "region": "Tropical and temperate oceans worldwide",
+      "geo": {
+        "lat": 5.7,
+        "lng": -53.9,
+        "zoom": 4,
+        "country": "French Guiana",
+        "locName": "Guiana Shield coast (representative nesting region)"
+      },
+      "geoPrecision": "wide-ranging",
+      "threats": [
+        "Bycatch in fisheries",
+        "Egg collection and loss of nesting beaches",
+        "Ingestion of plastic mistaken for jellyfish"
+      ],
+      "threatTags": [
+        "snares-bycatch",
+        "habitat-loss",
+        "pollution"
+      ],
+      "conservationActions": [
+        "Bycatch-reduction measures in some fisheries",
+        "Nest protection and beach patrols",
+        "International protection of nesting beaches"
+      ],
+      "audio": {
+        "description": "A heavy splash suggesting a large turtle surfacing",
+        "hint": "A synthesized splash-like tone. It is not an animal call.",
+        "params": {
+          "type": "splash",
+          "baseFreq": 200,
+          "duration": 1.1
+        }
+      }
+    },
+    "green-sea-turtle": {
+      "name": "Green Sea Turtle",
+      "scientificName": "Chelonia mydas",
+      "group": "Reptiles",
+      "taxonomy": {
+        "class": "Reptilia",
+        "order": "Testudines",
+        "family": "Cheloniidae",
+        "genus": "Chelonia"
+      },
+      "iucn": {
+        "code": "EN",
+        "scope": "species",
+        "note": "This is the global assessment. Status varies between regional subpopulations."
+      },
+      "wiki": "Green sea turtle",
+      "tagline": "A large, mostly herbivorous sea turtle found in tropical and subtropical seas worldwide.",
+      "summary": "The green turtle is named for the colour of its body fat, not its shell. It is one of the best-studied sea turtles, and its numbers differ greatly from region to region.",
+      "ecologicalRole": "Adults graze on seagrass and algae, which can help keep seagrass beds healthy; juveniles eat more animal prey.",
+      "habitat": "Seagrass meadows, coastal waters and nesting beaches",
+      "habitatTags": [
+        "coast-reef-mangrove"
+      ],
+      "region": "Tropical and subtropical oceans worldwide",
+      "geo": {
+        "lat": 10.55,
+        "lng": -83.5,
+        "zoom": 4,
+        "country": "Costa Rica",
+        "locName": "Caribbean coast of Costa Rica (representative nesting region)"
+      },
+      "geoPrecision": "wide-ranging",
+      "threats": [
+        "Bycatch in fishing gear",
+        "Harvest of eggs and turtles in some regions",
+        "Loss of nesting beaches and seagrass habitat"
+      ],
+      "threatTags": [
+        "snares-bycatch",
+        "hunting-trade",
+        "habitat-loss"
+      ],
+      "conservationActions": [
+        "Nest protection and beach monitoring",
+        "Legal protection and international trade controls",
+        "Bycatch-reduction measures in fisheries"
+      ],
+      "audio": {
+        "description": "A soft splash suggesting a turtle surfacing",
+        "hint": "A synthesized splash-like tone. It is not an animal call.",
+        "params": {
+          "type": "splash",
+          "baseFreq": 240,
+          "duration": 1
+        }
+      }
+    },
+    "radiated-tortoise": {
+      "name": "Radiated Tortoise",
+      "scientificName": "Astrochelys radiata",
+      "group": "Reptiles",
+      "taxonomy": {
+        "class": "Reptilia",
+        "order": "Testudines",
+        "family": "Testudinidae",
+        "genus": "Astrochelys"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species"
+      },
+      "wiki": "Radiated tortoise",
+      "tagline": "A strikingly patterned tortoise found only in the dry spiny forests of southern Madagascar.",
+      "summary": "Each scute of the radiated tortoise’s high, domed shell carries a star-like pattern of yellow lines. It lives only in a narrow region of Madagascar and is heavily targeted by illegal trade.",
+      "ecologicalRole": "A grazing herbivore that can spread plant seeds across spiny forest and scrub.",
+      "habitat": "Dry spiny forest and scrubland",
+      "habitatTags": [
+        "canyon-scrub"
+      ],
+      "region": "Southern Madagascar",
+      "geo": {
+        "lat": -24.6,
+        "lng": 45.6,
+        "zoom": 7,
+        "country": "Madagascar",
+        "locName": "Southern Madagascar spiny forest (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Poaching for the illegal pet trade and for meat",
+        "Habitat loss to farming and charcoal production",
+        "Illegal international trafficking"
+      ],
+      "threatTags": [
+        "hunting-trade",
+        "habitat-loss"
+      ],
+      "conservationActions": [
+        "Anti-trafficking enforcement and tortoise rescue centres",
+        "Community-based protection of tortoise habitat",
+        "Captive breeding and release in some projects"
+      ],
+      "audio": {
+        "description": "A low hiss suggesting a tortoise",
+        "hint": "A synthesized hissing tone. It is not a recording.",
+        "params": {
+          "type": "hiss",
+          "baseFreq": 250,
+          "duration": 1.1
+        }
+      }
+    },
+    "aldabra-giant-tortoise": {
+      "name": "Aldabra Giant Tortoise",
+      "scientificName": "Aldabrachelys gigantea",
+      "group": "Reptiles",
+      "taxonomy": {
+        "class": "Reptilia",
+        "order": "Testudines",
+        "family": "Testudinidae",
+        "genus": "Aldabrachelys"
+      },
+      "iucn": {
+        "code": "VU",
+        "scope": "species"
+      },
+      "wiki": "Aldabra giant tortoise",
+      "tagline": "One of the world’s largest tortoises, living on Aldabra Atoll in the Seychelles, with managed groups on other islands.",
+      "summary": "The Aldabra giant tortoise grazes on grass and low plants and can live for many decades. Most of the world’s wild population lives on one remote atoll.",
+      "ecologicalRole": "A major grazer and seed disperser that shapes the vegetation of its island.",
+      "habitat": "Island grasslands, scrub and mangrove edges",
+      "habitatTags": [
+        "grassland",
+        "coast-reef-mangrove"
+      ],
+      "region": "Aldabra Atoll, Seychelles (and introduced groups on other islands)",
+      "geo": {
+        "lat": -9.42,
+        "lng": 46.42,
+        "zoom": 9,
+        "country": "Seychelles",
+        "locName": "Aldabra Atoll, Seychelles (representative site)"
+      },
+      "geoPrecision": "representative-site",
+      "threats": [
+        "Sea-level rise and extreme weather on low-lying atolls",
+        "Past harvest for meat and shells",
+        "Risks from introduced species"
+      ],
+      "threatTags": [
+        "climate",
+        "hunting-trade",
+        "invasive-disease"
+      ],
+      "conservationActions": [
+        "Strict protection on Aldabra Atoll, a UNESCO World Heritage Site",
+        "Population monitoring",
+        "Managed populations on other islands"
+      ],
+      "audio": {
+        "description": "A deep hiss suggesting a very large tortoise",
+        "hint": "A synthesized hissing tone. It is not a recording.",
+        "params": {
+          "type": "hiss",
+          "baseFreq": 180,
+          "duration": 1.1
+        }
+      }
+    },
+    "chinese-giant-salamander": {
+      "name": "Chinese Giant Salamander",
+      "scientificName": "Andrias davidianus",
+      "group": "Amphibians",
+      "taxonomy": {
+        "class": "Amphibia",
+        "order": "Caudata",
+        "family": "Cryptobranchidae",
+        "genus": "Andrias"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species",
+        "note": "Genetic studies suggest this animal may be several species, which affects how its status is assessed."
+      },
+      "wiki": "Chinese giant salamander",
+      "tagline": "The world’s largest amphibian, a fully aquatic salamander of cool, clear mountain streams in China.",
+      "summary": "This giant salamander has wrinkled skin and tiny eyes and hunts mainly at night by sensing movement in the water. Wild populations have fallen sharply; many animals in farms are not suitable for release.",
+      "ecologicalRole": "An ambush predator of fish, crustaceans and other prey in clean, fast streams.",
+      "habitat": "Cool, clear mountain streams and caves",
+      "habitatTags": [
+        "freshwater-wetland",
+        "montane-forest"
+      ],
+      "region": "Central and southern China",
+      "geo": {
+        "lat": 29.5,
+        "lng": 110.5,
+        "zoom": 6,
+        "country": "China",
+        "locName": "Central China mountain streams (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Harvest for food and traditional uses",
+        "Habitat loss and dam building",
+        "Pollution and degradation of stream habitat"
+      ],
+      "threatTags": [
+        "hunting-trade",
+        "habitat-loss",
+        "pollution"
+      ],
+      "conservationActions": [
+        "Legal protection in China",
+        "Captive breeding and release trials with attention to genetics",
+        "Protection of stream habitat"
+      ],
+      "audio": {
+        "description": "A low gurgle suggesting a large aquatic salamander",
+        "hint": "A synthesized gurgling tone. The animal is known for faint sounds only.",
+        "params": {
+          "type": "bubble",
+          "baseFreq": 300,
+          "duration": 0.9
+        }
+      }
+    },
+    "golden-poison-frog": {
+      "name": "Golden Poison Frog",
+      "scientificName": "Phyllobates terribilis",
+      "group": "Amphibians",
+      "taxonomy": {
+        "class": "Amphibia",
+        "order": "Anura",
+        "family": "Dendrobatidae",
+        "genus": "Phyllobates"
+      },
+      "iucn": {
+        "code": "EN",
+        "scope": "species"
+      },
+      "wiki": "Golden poison frog",
+      "tagline": "A small, brightly coloured rainforest frog from the Pacific lowlands of Colombia that carries powerful skin toxins.",
+      "summary": "The golden poison frog’s bright colour is a warning to predators. It lives in a small patch of rainforest, so local forest loss matters a great deal for the whole species.",
+      "ecologicalRole": "A leaf-litter insect eater. Its skin toxins are thought to come from its diet in the wild.",
+      "habitat": "Lowland tropical rainforest",
+      "habitatTags": [
+        "tropical-forest"
+      ],
+      "region": "Pacific coast of Colombia",
+      "geo": {
+        "lat": 2.6,
+        "lng": -77.9,
+        "zoom": 8,
+        "country": "Colombia",
+        "locName": "Pacific lowlands of Colombia (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Deforestation and mining",
+        "Collection for the pet trade",
+        "A very small geographic range"
+      ],
+      "threatTags": [
+        "habitat-loss",
+        "hunting-trade",
+        "small-population"
+      ],
+      "conservationActions": [
+        "Protection of rainforest habitat",
+        "Captive-breeding programmes in zoos",
+        "Local monitoring"
+      ],
+      "audio": {
+        "description": "A short, high trill suggesting a small frog",
+        "hint": "A synthesized trill-like tone. It does not reproduce the frog’s real call.",
+        "params": {
+          "type": "click",
+          "baseFreq": 1800,
+          "duration": 0.6
+        }
+      }
+    },
+    "panamanian-golden-frog": {
+      "name": "Panamanian Golden Frog",
+      "scientificName": "Atelopus zeteki",
+      "group": "Amphibians",
+      "taxonomy": {
+        "class": "Amphibia",
+        "order": "Anura",
+        "family": "Bufonidae",
+        "genus": "Atelopus"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species",
+        "note": "Its status in the wild is uncertain; check the latest assessment."
+      },
+      "wiki": "Panamanian golden frog",
+      "tagline": "A bright yellow harlequin toad that is a national symbol of Panama and survives mainly in captive assurance colonies.",
+      "summary": "The Panamanian golden frog communicates partly with hand waves, an adaptation to noisy streams. Chytrid fungus has devastated many amphibians worldwide, and this species is a well-known example.",
+      "ecologicalRole": "A stream-side insect eater and a flagship for amphibian conservation and for the fight against chytrid disease.",
+      "habitat": "Cloud-forest streams",
+      "habitatTags": [
+        "montane-forest",
+        "freshwater-wetland"
+      ],
+      "region": "Central Panama (historical range)",
+      "geo": {
+        "lat": 8.6,
+        "lng": -80.13,
+        "zoom": 8,
+        "country": "Panama",
+        "locName": "Central Panama highlands (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Chytrid fungus disease",
+        "Habitat loss",
+        "Past collection for the pet trade"
+      ],
+      "threatTags": [
+        "invasive-disease",
+        "habitat-loss",
+        "hunting-trade",
+        "small-population"
+      ],
+      "conservationActions": [
+        "Captive assurance colonies in Panama and abroad",
+        "Research on chytrid disease and treatments",
+        "Public education and cultural recognition"
+      ],
+      "audio": {
+        "description": "A faint chirp suggesting a small toad",
+        "hint": "A synthesized chirp-like tone. The species is known for visual signalling, not loud calls.",
+        "params": {
+          "type": "click",
+          "baseFreq": 1500,
+          "duration": 0.6
+        }
+      }
+    },
+    "goliath-frog": {
+      "name": "Goliath Frog",
+      "scientificName": "Conraua goliath",
+      "group": "Amphibians",
+      "taxonomy": {
+        "class": "Amphibia",
+        "order": "Anura",
+        "family": "Conrauidae",
+        "genus": "Conraua"
+      },
+      "iucn": {
+        "code": "EN",
+        "scope": "species"
+      },
+      "wiki": "Goliath frog",
+      "tagline": "The largest living frog, found in fast-flowing rivers of Cameroon and Equatorial Guinea.",
+      "summary": "Goliath frogs can be much larger than other frogs and lay eggs in rocky, flowing water. They have no vocal sac and are rarely heard.",
+      "ecologicalRole": "A large predator and prey item in river ecosystems that is sensitive to river quality.",
+      "habitat": "Fast-flowing, clear rainforest rivers and waterfalls",
+      "habitatTags": [
+        "freshwater-wetland",
+        "tropical-forest"
+      ],
+      "region": "Cameroon and Equatorial Guinea",
+      "geo": {
+        "lat": 3.5,
+        "lng": 10.5,
+        "zoom": 6,
+        "country": "Cameroon",
+        "locName": "Southwestern Cameroon rainforest rivers (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Hunting for food",
+        "Forest loss and river sedimentation",
+        "Collection for trade"
+      ],
+      "threatTags": [
+        "hunting-trade",
+        "habitat-loss"
+      ],
+      "conservationActions": [
+        "Protected areas in parts of its range",
+        "Community awareness projects",
+        "Research on breeding and habitat needs"
+      ],
+      "audio": {
+        "description": "A low gurgle suggesting a very large frog",
+        "hint": "A synthesized tone. This frog has no vocal sac and is mostly silent, so the sound is purely illustrative.",
+        "params": {
+          "type": "bubble",
+          "baseFreq": 220,
+          "duration": 0.9
+        }
+      }
+    },
+    "lake-titicaca-frog": {
+      "name": "Lake Titicaca Frog",
+      "scientificName": "Telmatobius culeus",
+      "group": "Amphibians",
+      "taxonomy": {
+        "class": "Amphibia",
+        "order": "Anura",
+        "family": "Telmatobiidae",
+        "genus": "Telmatobius"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species"
+      },
+      "wiki": "Titicaca water frog",
+      "tagline": "A wrinkle-skinned, fully aquatic frog that lives only in Lake Titicaca and nearby waters on the Peru–Bolivia border.",
+      "summary": "The frog’s baggy skin increases the surface for taking in oxygen. It is entirely aquatic and rarely comes to the surface.",
+      "ecologicalRole": "Absorbs oxygen through loose skin folds in the cold, high-altitude lake and is an indicator of lake health.",
+      "habitat": "High-altitude lake bed",
+      "habitatTags": [
+        "freshwater-wetland"
+      ],
+      "region": "Lake Titicaca, Peru and Bolivia",
+      "geo": {
+        "lat": -15.8,
+        "lng": -69.4,
+        "zoom": 8,
+        "country": "Peru and Bolivia",
+        "locName": "Lake Titicaca (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Harvest for food and drink",
+        "Water pollution and habitat degradation",
+        "Introduced fish and other pressures"
+      ],
+      "threatTags": [
+        "hunting-trade",
+        "pollution",
+        "invasive-disease"
+      ],
+      "conservationActions": [
+        "Legal protection and enforcement against harvest",
+        "Captive-breeding programmes",
+        "Lake clean-up and monitoring projects"
+      ],
+      "audio": {
+        "description": "A soft gurgle suggesting an underwater frog",
+        "hint": "A synthesized gurgling tone. It is not a recording.",
+        "params": {
+          "type": "bubble",
+          "baseFreq": 260,
+          "duration": 0.9
+        }
+      }
+    },
+    "darwins-frog": {
+      "name": "Darwin’s Frog",
+      "scientificName": "Rhinoderma darwinii",
+      "group": "Amphibians",
+      "taxonomy": {
+        "class": "Amphibia",
+        "order": "Anura",
+        "family": "Rhinodermatidae",
+        "genus": "Rhinoderma"
+      },
+      "iucn": {
+        "code": "EN",
+        "scope": "species"
+      },
+      "wiki": "Darwin's frog",
+      "tagline": "A small, leaf-mimicking frog of Chile and Argentina whose males carry developing tadpoles in their vocal sacs.",
+      "summary": "Darwin’s frog has a pointed snout and leaf-like shape. Males keep tadpoles in their vocal sac until they develop into froglets.",
+      "ecologicalRole": "A small insect-eater of cool, humid forest leaf litter.",
+      "habitat": "Cool, humid temperate forest",
+      "habitatTags": [
+        "temperate-forest"
+      ],
+      "region": "Southern Chile and adjacent Argentina",
+      "geo": {
+        "lat": -39.8,
+        "lng": -73.2,
+        "zoom": 7,
+        "country": "Chile",
+        "locName": "Valdivian forests, southern Chile (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Forest loss and fragmentation",
+        "Chytrid fungus disease",
+        "Climate change and habitat change"
+      ],
+      "threatTags": [
+        "habitat-loss",
+        "invasive-disease",
+        "climate"
+      ],
+      "conservationActions": [
+        "Protected areas in Chile and Argentina",
+        "Captive-breeding and research programmes",
+        "Disease monitoring"
+      ],
+      "audio": {
+        "description": "A short, high whistle suggesting a small forest frog",
+        "hint": "A synthesized whistle-like tone. It does not reproduce the frog’s real call.",
+        "params": {
+          "type": "click",
+          "baseFreq": 2000,
+          "duration": 0.5
+        }
+      }
+    },
+    "purple-frog": {
+      "name": "Purple Frog",
+      "scientificName": "Nasikabatrachus sahyadrensis",
+      "group": "Amphibians",
+      "taxonomy": {
+        "class": "Amphibia",
+        "order": "Anura",
+        "family": "Nasikabatrachidae",
+        "genus": "Nasikabatrachus"
+      },
+      "iucn": {
+        "code": "EN",
+        "scope": "species"
+      },
+      "wiki": "Purple frog",
+      "tagline": "A burrowing, pig-snouted frog of India’s Western Ghats that spends most of its life underground.",
+      "summary": "The purple frog has a round, bloated body and a small, pointed head. It belongs to an ancient family found only in India and Sri Lanka and was formally described in 2003.",
+      "ecologicalRole": "Feeds on termites underground and emerges briefly during the monsoon to breed.",
+      "habitat": "Moist forest soils and streams of the Western Ghats",
+      "habitatTags": [
+        "tropical-forest",
+        "montane-forest"
+      ],
+      "region": "Western Ghats, India",
+      "geo": {
+        "lat": 10,
+        "lng": 77,
+        "zoom": 7,
+        "country": "India",
+        "locName": "Western Ghats, Kerala (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Forest clearing and plantation expansion",
+        "Habitat fragmentation by roads and development",
+        "Disturbance of breeding streams"
+      ],
+      "threatTags": [
+        "habitat-loss"
+      ],
+      "conservationActions": [
+        "Protection of key habitat in the Western Ghats",
+        "Community awareness projects",
+        "Ongoing surveys"
+      ],
+      "audio": {
+        "description": "A low call suggesting a burrowing frog",
+        "hint": "A synthesized low tone. It does not reproduce the frog’s real call.",
+        "params": {
+          "type": "bubble",
+          "baseFreq": 140,
+          "duration": 0.8
+        }
+      }
+    },
+    "whale-shark": {
+      "name": "Whale Shark",
+      "scientificName": "Rhincodon typus",
+      "group": "Fish",
+      "taxonomy": {
+        "class": "Chondrichthyes",
+        "order": "Orectolobiformes",
+        "family": "Rhincodontidae",
+        "genus": "Rhincodon"
+      },
+      "iucn": {
+        "code": "EN",
+        "scope": "species"
+      },
+      "wiki": "Whale shark",
+      "tagline": "The largest living fish, a slow-moving filter feeder of tropical seas.",
+      "summary": "The whale shark is a shark, not a whale. It has a wide mouth and a spotted pattern that is unique to each animal.",
+      "ecologicalRole": "Filters plankton and small fish from the water, moving long distances between feeding areas.",
+      "habitat": "Tropical and warm-temperate open ocean and coasts",
+      "habitatTags": [
+        "open-ocean"
+      ],
+      "region": "Tropical and warm-temperate seas worldwide",
+      "geo": {
+        "lat": -22.7,
+        "lng": 113.7,
+        "zoom": 5,
+        "country": "Australia",
+        "locName": "Ningaloo coast (representative feeding area)"
+      },
+      "geoPrecision": "wide-ranging",
+      "threats": [
+        "Targeted fishing and bycatch",
+        "Strikes by vessels",
+        "Disturbance at feeding sites"
+      ],
+      "threatTags": [
+        "snares-bycatch",
+        "collision",
+        "hunting-trade"
+      ],
+      "conservationActions": [
+        "Listing on CITES Appendix II and national protection",
+        "Tagging and tracking research",
+        "Codes of conduct for wildlife tourism"
+      ],
+      "audio": {
+        "description": "A very low tone suggesting a huge, slow animal",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "boom",
+          "baseFreq": 70,
+          "duration": 1.8
+        }
+      }
+    },
+    "great-white-shark": {
+      "name": "Great White Shark",
+      "scientificName": "Carcharodon carcharias",
+      "group": "Fish",
+      "taxonomy": {
+        "class": "Chondrichthyes",
+        "order": "Lamniformes",
+        "family": "Lamnidae",
+        "genus": "Carcharodon"
+      },
+      "iucn": {
+        "code": "VU",
+        "scope": "species"
+      },
+      "wiki": "Great white shark",
+      "tagline": "A large apex predator of temperate and subtropical seas that travels along coasts and across open ocean.",
+      "summary": "Great white sharks grow slowly, mature late and produce few young, so populations recover slowly after losses.",
+      "ecologicalRole": "A top predator that preys on seals, fish and other marine animals.",
+      "habitat": "Coastal and offshore waters",
+      "habitatTags": [
+        "open-ocean",
+        "coast-reef-mangrove"
+      ],
+      "region": "Temperate and subtropical oceans worldwide",
+      "geo": {
+        "lat": -34.6,
+        "lng": 19.35,
+        "zoom": 5,
+        "country": "South Africa",
+        "locName": "Gansbaai coast, South Africa (representative site)"
+      },
+      "geoPrecision": "wide-ranging",
+      "threats": [
+        "Fishing, including bycatch",
+        "Shark control programmes and the shark-fin trade in some regions",
+        "Slow growth and late maturity, which slow recovery"
+      ],
+      "threatTags": [
+        "snares-bycatch",
+        "hunting-trade"
+      ],
+      "conservationActions": [
+        "Legal protection in many countries",
+        "Listing on CITES Appendix II",
+        "Tagging and tracking research"
+      ],
+      "audio": {
+        "description": "A very low tone suggesting a large predator",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "boom",
+          "baseFreq": 60,
+          "duration": 1.8
+        }
+      }
+    },
+    "european-eel": {
+      "name": "European Eel",
+      "scientificName": "Anguilla anguilla",
+      "group": "Fish",
+      "taxonomy": {
+        "class": "Actinopterygii",
+        "order": "Anguilliformes",
+        "family": "Anguillidae",
+        "genus": "Anguilla"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species"
+      },
+      "wiki": "European eel",
+      "tagline": "A snake-like migratory fish that is born in the Sargasso Sea, grows in European rivers and returns to the ocean to spawn.",
+      "summary": "European eels make one of the longest migrations of any freshwater fish. Their spawning has never been directly observed, which makes protection difficult.",
+      "ecologicalRole": "A predator and scavenger in rivers and estuaries that links ocean and freshwater systems.",
+      "habitat": "Rivers, lakes, estuaries and the Sargasso Sea (spawning)",
+      "habitatTags": [
+        "freshwater-wetland",
+        "open-ocean"
+      ],
+      "region": "Europe, North Africa and the Atlantic (spawning in the Sargasso Sea)",
+      "geo": {
+        "lat": 27,
+        "lng": -60,
+        "zoom": 3,
+        "country": "Atlantic Ocean",
+        "locName": "Sargasso Sea (approximate spawning area)"
+      },
+      "geoPrecision": "wide-ranging",
+      "threats": [
+        "Dams, pumps and other barriers that block migration",
+        "Overfishing, including of young glass eels, and illegal trade",
+        "Pollution and parasites"
+      ],
+      "threatTags": [
+        "habitat-loss",
+        "hunting-trade",
+        "pollution"
+      ],
+      "conservationActions": [
+        "Eel management plans and fishing limits in the European Union",
+        "Trade restrictions under CITES Appendix II",
+        "Fish passes and restocking trials"
+      ],
+      "audio": {
+        "description": "A faint gurgle suggesting a river fish",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "bubble",
+          "baseFreq": 180,
+          "duration": 0.9
+        }
+      }
+    },
+    "beluga-sturgeon": {
+      "name": "Beluga Sturgeon",
+      "scientificName": "Huso huso",
+      "group": "Fish",
+      "taxonomy": {
+        "class": "Actinopterygii",
+        "order": "Acipenseriformes",
+        "family": "Acipenseridae",
+        "genus": "Huso"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species"
+      },
+      "wiki": "Beluga (sturgeon)",
+      "tagline": "A giant, long-lived fish of the Caspian and Black Sea basins, known for the caviar made from its eggs.",
+      "summary": "Beluga sturgeons are among the largest freshwater and migratory fish. They mature late, so overfishing has long-lasting effects.",
+      "ecologicalRole": "A large predatory fish that migrates upriver to spawn.",
+      "habitat": "Seas, large rivers and spawning grounds",
+      "habitatTags": [
+        "freshwater-wetland"
+      ],
+      "region": "Caspian Sea, Black Sea and Adriatic basins; spawning rivers such as the Volga and Ural",
+      "geo": {
+        "lat": 46,
+        "lng": 49,
+        "zoom": 5,
+        "country": "Russia and Kazakhstan",
+        "locName": "Northern Caspian Sea (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Overfishing and poaching for caviar",
+        "Dams that block spawning migrations",
+        "Pollution and habitat degradation"
+      ],
+      "threatTags": [
+        "hunting-trade",
+        "habitat-loss",
+        "pollution"
+      ],
+      "conservationActions": [
+        "Trade controls on caviar under CITES (all sturgeons are listed)",
+        "Hatchery-based restocking programmes",
+        "Fishing bans in some countries"
+      ],
+      "audio": {
+        "description": "A low tone suggesting a very large river fish",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "boom",
+          "baseFreq": 80,
+          "duration": 1.6
+        }
+      }
+    },
+    "humphead-wrasse": {
+      "name": "Humphead Wrasse",
+      "scientificName": "Cheilinus undulatus",
+      "group": "Fish",
+      "taxonomy": {
+        "class": "Actinopterygii",
+        "order": "Labriformes",
+        "family": "Labridae",
+        "genus": "Cheilinus",
+        "note": "Some classifications place wrasses in the order Perciformes."
+      },
+      "iucn": {
+        "code": "EN",
+        "scope": "species"
+      },
+      "wiki": "Humphead wrasse",
+      "tagline": "A very large coral-reef fish with a prominent forehead hump, also called the Napoleon wrasse.",
+      "summary": "Humphead wrasses can live for decades and change sex during their lives. They are heavily targeted for the luxury live-fish trade.",
+      "ecologicalRole": "Eats hard-shelled invertebrates and also crown-of-thorns starfish, a species that can damage coral.",
+      "habitat": "Coral reefs and lagoons",
+      "habitatTags": [
+        "coast-reef-mangrove"
+      ],
+      "region": "Indo-Pacific reefs from the Red Sea to the central Pacific",
+      "geo": {
+        "lat": -15,
+        "lng": 146,
+        "zoom": 4,
+        "country": "Australia",
+        "locName": "Great Barrier Reef region (representative)"
+      },
+      "geoPrecision": "wide-ranging",
+      "threats": [
+        "Overfishing for the live reef-fish trade",
+        "Destructive fishing methods",
+        "Degradation of coral reefs"
+      ],
+      "threatTags": [
+        "hunting-trade",
+        "habitat-loss"
+      ],
+      "conservationActions": [
+        "Listing on CITES Appendix II",
+        "Size and catch limits in some countries",
+        "Marine protected areas"
+      ],
+      "audio": {
+        "description": "A soft bubbling tone suggesting a reef fish",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "bubble",
+          "baseFreq": 300,
+          "duration": 0.8
+        }
+      }
+    },
+    "smalltooth-sawfish": {
+      "name": "Smalltooth Sawfish",
+      "scientificName": "Pristis pectinata",
+      "group": "Fish",
+      "taxonomy": {
+        "class": "Chondrichthyes",
+        "order": "Pristiformes",
+        "family": "Pristidae",
+        "genus": "Pristis"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species"
+      },
+      "wiki": "Smalltooth sawfish",
+      "tagline": "A ray with a long, toothed snout that was once common in coastal waters of the Atlantic and is now rare across much of its range.",
+      "summary": "Sawfishes are rays, not sharks. The saw is covered with sensors and is also used to stun prey.",
+      "ecologicalRole": "Uses its toothed snout to sense and strike prey in shallow coastal water and estuaries.",
+      "habitat": "Shallow coastal waters, estuaries and river mouths",
+      "habitatTags": [
+        "coast-reef-mangrove"
+      ],
+      "region": "Atlantic coasts; its main remaining stronghold in the USA is in Florida",
+      "geo": {
+        "lat": 25.4,
+        "lng": -81,
+        "zoom": 7,
+        "country": "United States",
+        "locName": "Southwest Florida coast (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Entanglement in fishing nets",
+        "Loss of mangrove and estuarine nursery habitat",
+        "Slow growth and reproduction"
+      ],
+      "threatTags": [
+        "snares-bycatch",
+        "habitat-loss"
+      ],
+      "conservationActions": [
+        "Legal protection, including under the US Endangered Species Act",
+        "Guidelines for safe release of accidental catches",
+        "Habitat protection and research"
+      ],
+      "audio": {
+        "description": "A short click suggesting a fish-like sound",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "click",
+          "baseFreq": 700,
+          "duration": 0.8
+        }
+      }
+    },
+    "mekong-giant-catfish": {
+      "name": "Mekong Giant Catfish",
+      "scientificName": "Pangasianodon gigas",
+      "group": "Fish",
+      "taxonomy": {
+        "class": "Actinopterygii",
+        "order": "Siluriformes",
+        "family": "Pangasiidae",
+        "genus": "Pangasianodon"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species"
+      },
+      "wiki": "Mekong giant catfish",
+      "tagline": "One of the world’s largest freshwater fish, which migrates along the Mekong River system.",
+      "summary": "The Mekong giant catfish is scaleless and can grow very large. Its numbers have fallen sharply because it depends on a free-flowing river for migration.",
+      "ecologicalRole": "A large river fish that feeds mainly on algae and plant material as an adult and migrates to spawn.",
+      "habitat": "Large rivers",
+      "habitatTags": [
+        "freshwater-wetland"
+      ],
+      "region": "Mekong River basin, Southeast Asia",
+      "geo": {
+        "lat": 20.26,
+        "lng": 100.4,
+        "zoom": 7,
+        "country": "Thailand",
+        "locName": "Mekong River, northern Thailand (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Overfishing",
+        "Dams that block migration routes",
+        "Changes to river flow and habitat"
+      ],
+      "threatTags": [
+        "hunting-trade",
+        "habitat-loss"
+      ],
+      "conservationActions": [
+        "Fishing restrictions in parts of its range",
+        "Hatchery breeding and release programmes",
+        "Regional river-basin cooperation"
+      ],
+      "audio": {
+        "description": "A low tone suggesting a very large river fish",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "boom",
+          "baseFreq": 90,
+          "duration": 1.6
+        }
+      }
+    },
+    "lined-seahorse": {
+      "name": "Lined Seahorse",
+      "scientificName": "Hippocampus erectus",
+      "group": "Fish",
+      "taxonomy": {
+        "class": "Actinopterygii",
+        "order": "Syngnathiformes",
+        "family": "Syngnathidae",
+        "genus": "Hippocampus"
+      },
+      "iucn": {
+        "code": "VU",
+        "scope": "species"
+      },
+      "wiki": "Lined seahorse",
+      "tagline": "A seahorse of Atlantic coastal waters, in which the male carries the eggs in a brood pouch.",
+      "summary": "Seahorses are fish with a tail that can grip seagrass. Males give birth to the young, which are not cared for after birth.",
+      "ecologicalRole": "An ambush feeder on small crustaceans among seagrass and reef structures.",
+      "habitat": "Seagrass beds, reefs and coastal waters",
+      "habitatTags": [
+        "coast-reef-mangrove"
+      ],
+      "region": "Western Atlantic from Canada to the Caribbean and South America",
+      "geo": {
+        "lat": 24.7,
+        "lng": -81,
+        "zoom": 6,
+        "country": "United States",
+        "locName": "Florida coast (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Harvest for traditional medicine, the aquarium trade and curios",
+        "Bycatch in trawl fisheries",
+        "Loss of seagrass habitat"
+      ],
+      "threatTags": [
+        "hunting-trade",
+        "snares-bycatch",
+        "habitat-loss"
+      ],
+      "conservationActions": [
+        "Listing of all seahorses on CITES Appendix II",
+        "Size limits and export controls",
+        "Seagrass habitat protection"
+      ],
+      "audio": {
+        "description": "A faint clicking suggesting a seahorse’s feeding click",
+        "hint": "A synthesized click-like tone. It is not a recording.",
+        "params": {
+          "type": "click",
+          "baseFreq": 1200,
+          "duration": 0.6
+        }
+      }
+    },
+    "monarch-butterfly": {
+      "name": "Monarch Butterfly",
+      "scientificName": "Danaus plexippus plexippus",
+      "group": "Invertebrates",
+      "taxonomy": {
+        "class": "Insecta",
+        "order": "Lepidoptera",
+        "family": "Nymphalidae",
+        "genus": "Danaus"
+      },
+      "iucn": {
+        "code": "EN",
+        "scope": "subspecies",
+        "note": "The Endangered assessment applies to the migratory subspecies (Danaus plexippus plexippus) of North America. The species as a whole is a different case."
+      },
+      "wiki": "Monarch butterfly",
+      "tagline": "An orange-and-black butterfly whose North American populations migrate thousands of kilometres each year.",
+      "summary": "No single monarch makes the full round trip. It takes several generations to complete the annual migration cycle.",
+      "ecologicalRole": "Adults pollinate flowers; caterpillars feed only on milkweed plants.",
+      "habitat": "Meadows and fields (breeding); high-elevation forests (overwintering)",
+      "habitatTags": [
+        "grassland",
+        "montane-forest"
+      ],
+      "region": "North America: breeding across the USA and Canada; overwintering in Mexico and California",
+      "geo": {
+        "lat": 19.57,
+        "lng": -100.28,
+        "zoom": 7,
+        "country": "Mexico",
+        "locName": "Monarch Butterfly Biosphere Reserve, Mexico (overwintering area)"
+      },
+      "geoPrecision": "representative-site",
+      "threats": [
+        "Loss of milkweed and nectar plants",
+        "Logging at overwintering sites",
+        "Pesticides and climate change"
+      ],
+      "threatTags": [
+        "habitat-loss",
+        "pollution",
+        "climate"
+      ],
+      "conservationActions": [
+        "Protection of overwintering forests in Mexico",
+        "Milkweed planting programmes",
+        "Citizen-science monitoring of migration"
+      ],
+      "audio": {
+        "description": "A soft flutter-like tone suggesting wings",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "click",
+          "baseFreq": 1000,
+          "duration": 0.6
+        }
+      }
+    },
+    "lord-howe-stick-insect": {
+      "name": "Lord Howe Island Stick Insect",
+      "scientificName": "Dryococelus australis",
+      "group": "Invertebrates",
+      "taxonomy": {
+        "class": "Insecta",
+        "order": "Phasmatodea",
+        "family": "Phasmatidae",
+        "genus": "Dryococelus"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species"
+      },
+      "wiki": "Lord Howe Island stick insect",
+      "tagline": "A large, flightless stick insect once thought extinct and rediscovered on a sea stack near Lord Howe Island.",
+      "summary": "The stick insect was feared extinct after rats reached the island in the early twentieth century. It was found again in 2001 on Ball’s Pyramid.",
+      "ecologicalRole": "A nocturnal plant-eater that was once common on Lord Howe Island before introduced rats arrived.",
+      "habitat": "Shrubland on Ball’s Pyramid; formerly forest on Lord Howe Island",
+      "habitatTags": [
+        "canyon-scrub"
+      ],
+      "region": "Ball’s Pyramid and Lord Howe Island, Australia",
+      "geo": {
+        "lat": -31.76,
+        "lng": 159.25,
+        "zoom": 9,
+        "country": "Australia",
+        "locName": "Ball’s Pyramid, Tasman Sea (representative site)"
+      },
+      "geoPrecision": "representative-site",
+      "threats": [
+        "Introduced black rats, the historical cause of its loss from the main island",
+        "A tiny range and population",
+        "Vulnerability to fire or disease"
+      ],
+      "threatTags": [
+        "invasive-disease",
+        "small-population"
+      ],
+      "conservationActions": [
+        "A captive-breeding programme at Melbourne Zoo",
+        "A rodent-removal programme on Lord Howe Island intended to allow future reintroduction",
+        "Monitoring of the wild population"
+      ],
+      "audio": {
+        "description": "A faint rustle suggesting an insect",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "click",
+          "baseFreq": 600,
+          "duration": 0.6
+        }
+      }
+    },
+    "staghorn-coral": {
+      "name": "Staghorn Coral",
+      "scientificName": "Acropora cervicornis",
+      "group": "Invertebrates",
+      "taxonomy": {
+        "class": "Anthozoa",
+        "order": "Scleractinia",
+        "family": "Acroporidae",
+        "genus": "Acropora"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species"
+      },
+      "wiki": "Staghorn coral",
+      "tagline": "A branching reef-building coral of the Caribbean and western Atlantic, once among the most abundant on shallow reefs.",
+      "summary": "Staghorn coral grows quickly, and fragments can regrow, which is why restoration programmes use nurseries. It is a coral animal colony with algae living in its tissue.",
+      "ecologicalRole": "Builds reef structure that shelters fish and invertebrates and helps protect coasts.",
+      "habitat": "Shallow tropical reefs",
+      "habitatTags": [
+        "coast-reef-mangrove"
+      ],
+      "region": "Caribbean Sea, Gulf of Mexico and western Atlantic",
+      "geo": {
+        "lat": 24.6,
+        "lng": -81.5,
+        "zoom": 6,
+        "country": "United States",
+        "locName": "Florida Keys reef tract (representative)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Warming seas and bleaching",
+        "Disease outbreaks",
+        "Pollution and physical damage"
+      ],
+      "threatTags": [
+        "climate",
+        "invasive-disease",
+        "pollution"
+      ],
+      "conservationActions": [
+        "Coral nurseries that grow fragments for outplanting",
+        "Reef protection and water-quality improvement",
+        "Research on heat-tolerant genotypes"
+      ],
+      "audio": {
+        "description": "A soft bubbling tone suggesting a reef soundscape",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "bubble",
+          "baseFreq": 400,
+          "duration": 0.8
+        }
+      }
+    },
+    "elkhorn-coral": {
+      "name": "Elkhorn Coral",
+      "scientificName": "Acropora palmata",
+      "group": "Invertebrates",
+      "taxonomy": {
+        "class": "Anthozoa",
+        "order": "Scleractinia",
+        "family": "Acroporidae",
+        "genus": "Acropora"
+      },
+      "iucn": {
+        "code": "CR",
+        "scope": "species"
+      },
+      "wiki": "Elkhorn coral",
+      "tagline": "A large, flattened-branch coral that forms the shallow, wave-facing crest of many Caribbean reefs.",
+      "summary": "Elkhorn coral looks like the antlers of an elk. Its numbers fell steeply from the 1980s onward, mainly because of disease and warming.",
+      "ecologicalRole": "Its thick branches absorb wave energy, which helps protect shorelines and shelters reef animals.",
+      "habitat": "Shallow, high-energy reef crests",
+      "habitatTags": [
+        "coast-reef-mangrove"
+      ],
+      "region": "Caribbean Sea, Gulf of Mexico and western Atlantic",
+      "geo": {
+        "lat": 25,
+        "lng": -80.4,
+        "zoom": 6,
+        "country": "United States",
+        "locName": "Florida Reef Tract (representative)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Warming seas and bleaching",
+        "Disease outbreaks, such as white-band disease",
+        "Storm damage and pollution"
+      ],
+      "threatTags": [
+        "climate",
+        "invasive-disease",
+        "pollution"
+      ],
+      "conservationActions": [
+        "Coral nurseries and restoration outplanting",
+        "Legal protection, including under the US Endangered Species Act",
+        "Protected reef zones"
+      ],
+      "audio": {
+        "description": "A soft bubbling tone suggesting a reef soundscape",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "bubble",
+          "baseFreq": 380,
+          "duration": 0.8
+        }
+      }
+    },
+    "queen-alexandras-birdwing": {
+      "name": "Queen Alexandra’s Birdwing",
+      "scientificName": "Ornithoptera alexandrae",
+      "group": "Invertebrates",
+      "taxonomy": {
+        "class": "Insecta",
+        "order": "Lepidoptera",
+        "family": "Papilionidae",
+        "genus": "Ornithoptera"
+      },
+      "iucn": {
+        "code": "EN",
+        "scope": "species"
+      },
+      "wiki": "Queen Alexandra's birdwing",
+      "tagline": "The world’s largest butterfly, found only in a small area of lowland rainforest in Papua New Guinea.",
+      "summary": "Females can have a wingspan of over 25 centimetres. The species lives in a very small range, so forest clearing there has a large effect.",
+      "ecologicalRole": "Its caterpillars depend on a particular group of vines, so the butterfly is tied to specific forest plants.",
+      "habitat": "Lowland tropical rainforest",
+      "habitatTags": [
+        "tropical-forest"
+      ],
+      "region": "Oro Province, Papua New Guinea",
+      "geo": {
+        "lat": -8.8,
+        "lng": 148.2,
+        "zoom": 8,
+        "country": "Papua New Guinea",
+        "locName": "Oro Province, Papua New Guinea (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Forest clearing, including for oil-palm plantations",
+        "Volcanic eruptions in its small range",
+        "Collecting for the specimen trade"
+      ],
+      "threatTags": [
+        "habitat-loss",
+        "hunting-trade"
+      ],
+      "conservationActions": [
+        "Listing on CITES Appendix I",
+        "Legal protection in Papua New Guinea",
+        "Forest conservation and community butterfly projects"
+      ],
+      "audio": {
+        "description": "A soft flutter-like tone suggesting large wings",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "click",
+          "baseFreq": 900,
+          "duration": 0.6
+        }
+      }
+    },
+    "giant-clam": {
+      "name": "Giant Clam",
+      "scientificName": "Tridacna gigas",
+      "group": "Invertebrates",
+      "taxonomy": {
+        "class": "Bivalvia",
+        "order": "Cardiida",
+        "family": "Cardiidae",
+        "genus": "Tridacna",
+        "note": "Some classifications place this family in the order Venerida."
+      },
+      "iucn": {
+        "code": "VU",
+        "scope": "species"
+      },
+      "wiki": "Giant clam",
+      "tagline": "The largest living bivalve, which hosts algae in its tissues and lives on shallow Indo-Pacific reefs.",
+      "summary": "A giant clam can live for decades and its colourful mantle contains algae. It is farmed in hatcheries to supply restocking and the aquarium trade.",
+      "ecologicalRole": "Filters water and gets part of its energy from symbiotic algae; its shell shelters other reef animals.",
+      "habitat": "Shallow coral reefs and lagoons",
+      "habitatTags": [
+        "coast-reef-mangrove"
+      ],
+      "region": "Indo-Pacific reefs",
+      "geo": {
+        "lat": 7.35,
+        "lng": 134.5,
+        "zoom": 6,
+        "country": "Palau",
+        "locName": "Palau (representative reef region)"
+      },
+      "geoPrecision": "wide-ranging",
+      "threats": [
+        "Overharvest for meat and the shell trade",
+        "Warming-driven bleaching",
+        "Habitat loss on reefs"
+      ],
+      "threatTags": [
+        "hunting-trade",
+        "climate",
+        "habitat-loss"
+      ],
+      "conservationActions": [
+        "Listing of giant clams on CITES Appendix II",
+        "Hatchery breeding and restocking",
+        "Marine protected areas"
+      ],
+      "audio": {
+        "description": "A soft bubbling tone suggesting a reef soundscape",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "bubble",
+          "baseFreq": 350,
+          "duration": 0.8
+        }
+      }
+    },
+    "american-horseshoe-crab": {
+      "name": "Atlantic Horseshoe Crab",
+      "scientificName": "Limulus polyphemus",
+      "group": "Invertebrates",
+      "taxonomy": {
+        "class": "Merostomata",
+        "order": "Xiphosura",
+        "family": "Limulidae",
+        "genus": "Limulus",
+        "note": "Horseshoe crabs are marine arthropods more closely related to spiders and scorpions than to crabs."
+      },
+      "iucn": {
+        "code": "VU",
+        "scope": "species"
+      },
+      "wiki": "Atlantic horseshoe crab",
+      "tagline": "An ancient-looking marine arthropod that comes ashore to spawn on Atlantic beaches.",
+      "summary": "Horseshoe crab blood is used to test medical products for bacterial contamination, so some animals are caught, bled and released.",
+      "ecologicalRole": "Its eggs are an important food for migrating shorebirds such as the red knot.",
+      "habitat": "Shallow coastal waters, estuaries and spawning beaches",
+      "habitatTags": [
+        "coast-reef-mangrove"
+      ],
+      "region": "Atlantic coast of North America and the Gulf of Mexico",
+      "geo": {
+        "lat": 39.2,
+        "lng": -75.2,
+        "zoom": 7,
+        "country": "United States",
+        "locName": "Delaware Bay (representative spawning area)"
+      },
+      "geoPrecision": "representative-site",
+      "threats": [
+        "Harvest for bait and for biomedical use",
+        "Loss of spawning beaches to development and erosion",
+        "Sea-level rise"
+      ],
+      "threatTags": [
+        "hunting-trade",
+        "habitat-loss",
+        "climate"
+      ],
+      "conservationActions": [
+        "Catch limits and bait quotas set by states",
+        "Protection of spawning beaches",
+        "Development of synthetic alternatives to blood-based tests"
+      ],
+      "audio": {
+        "description": "A faint clicking suggesting a shelled animal on sand",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "click",
+          "baseFreq": 500,
+          "duration": 0.6
+        }
+      }
+    },
+    "tasmanian-giant-crayfish": {
+      "name": "Tasmanian Giant Freshwater Crayfish",
+      "scientificName": "Astacopsis gouldi",
+      "group": "Invertebrates",
+      "taxonomy": {
+        "class": "Malacostraca",
+        "order": "Decapoda",
+        "family": "Parastacidae",
+        "genus": "Astacopsis"
+      },
+      "iucn": {
+        "code": "EN",
+        "scope": "species"
+      },
+      "wiki": "Astacopsis gouldi",
+      "tagline": "The world’s largest freshwater invertebrate, living in rivers of northern Tasmania.",
+      "summary": "The Tasmanian giant freshwater crayfish grows slowly and breeds late in life, so it recovers slowly from losses of adults or habitat.",
+      "ecologicalRole": "Feeds on decaying wood and leaves, recycling nutrients in streams.",
+      "habitat": "Cool, clear rivers in forested catchments",
+      "habitatTags": [
+        "freshwater-wetland",
+        "temperate-forest"
+      ],
+      "region": "Northern Tasmania, Australia",
+      "geo": {
+        "lat": -41.3,
+        "lng": 146,
+        "zoom": 7,
+        "country": "Australia",
+        "locName": "Northern Tasmania rivers (regional marker)"
+      },
+      "geoPrecision": "region-centre",
+      "threats": [
+        "Clearing of streamside forest and sedimentation",
+        "Illegal fishing",
+        "Slow growth and late breeding"
+      ],
+      "threatTags": [
+        "habitat-loss",
+        "hunting-trade"
+      ],
+      "conservationActions": [
+        "Legal protection, including a ban on taking the species",
+        "Streamside forest protection rules",
+        "Population monitoring"
+      ],
+      "audio": {
+        "description": "A faint clicking suggesting a crayfish",
+        "hint": "Not a recording and not an animal call: this species is not known for making sounds, so the tone is purely illustrative.",
+        "params": {
+          "type": "click",
+          "baseFreq": 450,
+          "duration": 0.6
+        }
+      }
+    }
+  }
+}
