@@ -8,12 +8,12 @@ export default function Hero({ feature }) {
   return (
     <section
       data-hero
-      className="relative flex h-[100svh] min-h-[680px] items-end overflow-hidden pb-16"
+      className="relative flex min-h-[720px] h-[100svh] items-end overflow-hidden pb-12 sm:pb-16"
     >
       {/* Hero background image */}
       <div
         data-hero-media
-        className="absolute inset-0 -z-20 [&_.ph]:h-full [&_.ph]:w-full [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:object-[45%_center] md:[&_img]:object-center"
+        className="absolute inset-0 -z-20 [&_.ph]:h-full [&_.ph]:w-full [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:object-[center_center] md:[&_img]:object-center"
       >
         <SpeciesImage species={feature} priority />
       </div>
@@ -26,11 +26,11 @@ export default function Hero({ feature }) {
 
       {/* Hero content */}
       <div
-        className="mx-auto grid w-[min(1320px,100%-36px)] items-end gap-10 sm:w-[min(1320px,100%-56px)] lg:grid-cols-[1fr_auto]"
+        className="mx-auto grid w-[min(1320px,100%-32px)] items-end gap-6 sm:w-[min(1320px,100%-56px)] sm:gap-10 lg:grid-cols-[1fr_auto]"
         data-hero-inner
       >
         <div>
-          <div className="hero-rule mb-7 h-px w-[140px] bg-lime" />
+          <div className="hero-rule mb-5 h-px w-[100px] bg-lime sm:mb-7 sm:w-[140px]" />
 
           <span className="label" data-hero-fade>
             Endangered species atlas
@@ -39,12 +39,12 @@ export default function Hero({ feature }) {
           <Headline
             as="h1"
             hero
-            className="mt-6 text-[clamp(3.3rem,9.4vw,9.4rem)]"
+            className="mt-4 text-[clamp(2.8rem,9.4vw,9.4rem)] sm:mt-6 sm:text-[clamp(3.3rem,9.4vw,9.4rem)]"
             lines={['The wild is', ['worth ', { em: 'protecting.' }]]}
           />
 
           <p
-            className="mb-9 mt-8 max-w-[470px] text-[1.06rem] text-ivory/80"
+            className="mb-6 mt-5 max-w-[470px] text-[.95rem] leading-relaxed text-ivory/85 sm:mb-9 sm:mt-8 sm:text-[1.06rem]"
             data-hero-fade
           >
             Discover threatened species, understand the ecosystems they depend
@@ -53,7 +53,7 @@ export default function Hero({ feature }) {
           </p>
 
           <div
-            className="flex flex-wrap items-center gap-7"
+            className="flex flex-wrap items-center gap-4 sm:gap-7"
             data-hero-fade
           >
             <Link
@@ -111,7 +111,7 @@ export default function Hero({ feature }) {
       </div>
 
       {/* Photograph attribution */}
-      <p className="absolute bottom-3.5 left-7 text-[.58rem] uppercase tracking-[.14em] text-white/40">
+      <p className="absolute bottom-3.5 left-4 right-4 text-[.48rem] leading-relaxed uppercase tracking-[.1em] text-white/45 sm:bottom-3.5 sm:left-7 sm:right-auto sm:text-[.58rem] sm:tracking-[.14em]">
         Photograph: Wikipedia lead image when available · see article for
         author and licence
       </p>
