@@ -13,7 +13,9 @@ export default function Hero({ feature }) {
       {/* Hero background image */}
       <div
         data-hero-media
-        className="absolute inset-0 -z-20 [&_.ph]:h-full [&_.ph]:w-full [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:object-[center_center] md:[&_img]:object-center"
+        
+        className="absolute inset-0 -z-20 [&_.ph]:h-full [&_.ph]:w-full [&_img]:h-full [&_img]:w-full [&_img]:object-cover [&_img]:object-[15%_center] md:[&_img]:object-center"
+
       >
         <SpeciesImage species={feature} priority />
       </div>

@@ -208,7 +208,7 @@ img, svg { display: block; max-width: 100%; }
 /* Mobile hero image framing */
 @media (max-width: 767px) {
   [data-hero-media] .ph img {
-    object-position: 56% center;
+    object-position: 90% center;
   }
 }
 
@@ -390,3 +390,10 @@ dialog.sheet {
   border-left: 1px solid var(--line);
 }
 dialog.sheet::backdrop { background: rgba(7, 13, 10, .72); }
+
+/* Final mobile-only hero image framing */
+@media (max-width: 767px) {
+  [data-hero-media] .ph img {
+    object-position: 83% center;
+  }
+}
