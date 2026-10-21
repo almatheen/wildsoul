@@ -397,3 +397,46 @@ dialog.sheet::backdrop { background: rgba(7, 13, 10, .72); }
     object-position: 83% center;
   }
 }
+
+
+/* Tight spacing for the header's Explore Species button */
+.nav-drop {
+  gap: 4px !important;
+}
+
+.nav-drop .arr {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Tight spacing for the Explore Species button in the hero */
+.btn-fill.btn-sweep {
+  gap: 8px;
+}
+
+.btn-fill.btn-sweep .arr {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  flex-shrink: 0;
+}
+
+/* Keep the hero button arrow immediately after its text */
+.hero-explore-btn {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 8px !important;
+}
+
+.hero-explore-btn .hero-explore-arrow {
+  display: inline-block;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1;
+  flex: 0 0 auto;
+  transform: none;
+}
+
+.hero-explore-btn:hover .hero-explore-arrow {
+  transform: translateX(3px);
+}

@@ -60,10 +60,13 @@ export default function Hero({ feature }) {
           >
             <Link
               href="/species"
-              className="btn btn-fill btn-sweep"
+              className="btn btn-fill btn-sweep !gap-2"
             >
-              Explore Species
-              <span className="arr" aria-hidden="true">
+              <span>Explore Species</span>
+              <span
+                className="arr !ml-0 !mr-0"
+                aria-hidden="true"
+              >
                 →
               </span>
             </Link>
